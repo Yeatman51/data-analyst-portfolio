@@ -51,16 +51,19 @@
     }
   
   @media screen and (max-width: 900px) {
-    .developer-text-container{
+    .developer-text-container,
+    .designer-text-container{
       color: white;
     }
   
-    .developer-text-header {
+    .developer-text-header,
+    .designer-text-header {
       font-size: 15vw;
       margin: 18vw 0px 4vw 0;
     }
   
-    .developer-text-paragraph {
+    .developer-text-paragraph,
+    .designer-text-paragraph {
       font-size: 10vw;
     }
     .portfolio-container {

@@ -36,8 +36,9 @@ function Header() {
       <div className="yeatman-logo"></div>
 
       <h1 className="header-text">
-      Full Stack Web Developer<br></br>
-      Graphic Designer
+      Project Manager.
+      Data Analyst.<br></br>
+      Web Developer.<br></br>
       </h1>
     </header>
   

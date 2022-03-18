@@ -107,18 +107,18 @@ function Developer() {
  const GraphicDesignImages = [
    {
      key: 1,
-     imgSrc:"/images/designer-img/account-login.png",
+     imgSrc:"/images/designer-img/account_login.png",
      alt:"account login",
    },
    {
      key: 2,
-     imgSrc:"/images/designer-img/account-login.png",
-     alt:"Mipronderosa",
+     imgSrc:"/images/designer-img/kayaking_adventure.png",
+     alt:"kayaking",
    },
    {
      key: 3,
-     imgSrc:"/images/designer-img/account-login.png",
-     alt:"y'all come back now"
+     imgSrc:"/images/designer-img/walnut_creek.png",
+     alt:"Walnut Creek online store"
    },
    {
      key: 4,
@@ -238,7 +238,7 @@ function Developer() {
       ))}
    </div>
 
-    </div>
+</div>
   
   );
 }

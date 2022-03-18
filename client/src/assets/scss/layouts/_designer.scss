@@ -1,7 +1,7 @@
       /* CSS grid */
   .gd-gallery {
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(3, 1fr);
       /* grid-template-columns: 1fr 1fr 1fr 1fr; */
       /* grid-template-columns: minmax(400px, 1fr); */
       /* grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); */
@@ -25,14 +25,7 @@
   
   
   @media screen and (max-width: 900px) {
-    .designer-text-header {
-      font-size: 15vw;
-      margin: 18vw 0px 4vw 0;
-    }
-  
-    .designer-text-paragraph {
-      font-size: 10vw;
-    }  
+   
     .gd-gallery {
         grid-template-columns: minmax(300px, 1fr);
         margin: 3vw;
