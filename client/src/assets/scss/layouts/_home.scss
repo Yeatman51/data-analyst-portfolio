@@ -1,0 +1,124 @@
+/* home pg */
+
+.cont-profile-pic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5vw;
+}
+
+.profile-pic {
+  width: 25vw;
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px rgb(37, 37, 37);
+}
+
+.about-text-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  text-align: center;
+  margin: 1vw 0 1vw 0;
+  padding: 0;
+  font-size: 2.5vw;
+}
+
+.dividers-line {
+  border-top: 5px solid white;
+  margin-top: 10px;
+}
+
+.icon-header {
+  margin: 28px 5px 8px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 4vw;
+}
+
+.code-logos-container {
+  font-family: digital-7;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  margin-bottom: 2vw;
+}
+
+.code-logos {
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2.5vw;
+  width: 18vw;
+
+  img {
+    max-width: 100%;
+    height: auto;
+    min-width: 30px;
+  }
+}
+
+.code-logos h3 {
+  margin-top: -2.5vw;
+}
+
+.design-logos {
+  font-family: digital-7;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  margin-bottom: 2vw;
+
+  img {
+    max-width: 100%;
+    height: auto;
+    min-width: 30px;
+  }
+}
+
+.email {
+  font-family: digital-7;
+  margin: 1vw 0 0 0 ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  text-align: center;
+  font-size: 5vw;
+}
+
+@media screen and (max-width: 900px) {
+  .cont-profile-pic {
+    margin: 20vw 0 0 0;
+  }
+  .profile-pic {
+    width: 60vw;
+  }
+  .about-text-home {
+    padding: 0 1vw 0 1vw;
+    font-size: 6vw;
+    margin: 3vw 0 0 0;
+  }
+  .code-logos {
+    width: 100%;
+    font-size: 6.5vw;
+  }
+  .icon-header {
+    padding: 0 1vw 0 1vw;
+    font-size: 6.5vw;
+  }
+  .code-logos-container {
+    grid-template-columns: 1fr 1fr; 
+  }
+  .design-logos {
+    grid-template-columns: 1fr 1fr;
+  }
+  .email {
+    font-size: 7.5vw;
+  }
+
+}
