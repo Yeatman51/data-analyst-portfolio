@@ -1,6 +1,7 @@
 import React from "react";
 import Devcard from "../components/Devcard.js"
-
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 function Developer() {
 
@@ -103,8 +104,65 @@ function Developer() {
    }
  ]
 
+ const GraphicDesignImages = [
+   {
+     key: 1,
+     imgSrc:"/images/designer-img/account-login.png",
+     alt:"account login",
+   },
+   {
+     key: 2,
+     imgSrc:"/images/designer-img/account-login.png",
+     alt:"Mipronderosa",
+   },
+   {
+     key: 3,
+     imgSrc:"/images/designer-img/account-login.png",
+     alt:"y'all come back now"
+   },
+   {
+     key: 4,
+     imgSrc:"/images/designer-img/account-login.png",
+     alt:"iron river ranch"
+   },
+   {
+     key: 5,
+     imgSrc:"/images/designer-img/account-login.png",
+     alt:"Incendiary Brewing Company"
+   },
+   {
+     key: 6,
+     imgSrc:"/images/designer-img/account-login.png",
+     alt:"Village Grill"
+   },
+ ]
+
   return (
-    <div>
+   <div>
+
+   <div className="designer-text-container">
+      <h2 className="designer-text-header">Data Analyst</h2>
+
+      <p className="designer-text-paragraph">
+
+      </p>
+   </div>
+
+<div className="dividers-line"></div>
+   
+   <div className="portfolio-container-row-1">
+    {cardsRow1.map(card1 => (
+      <Devcard 
+        key={card1.key}
+        title={card1.title}
+        imgSrc={card1.imgSrc}
+        alt={card1.alt}
+        description={card1.description}
+        github={card1.github}
+        www={card1.www}
+      /> 
+    ))}
+    </div>
       
       <div className="developer-text-container">
         <h2 className="developer-text-header">Developer</h2>
@@ -114,7 +172,7 @@ function Developer() {
         </p>
       </div>
 
-    <div className="dividers-line"></div>
+<div className="dividers-line"></div>
 
     <div className="portfolio-container-row-1">
     {cardsRow1.map(card1 => (
@@ -157,6 +215,28 @@ function Developer() {
       /> 
     ))}
     </div>
+
+    <div className="designer-text-container">
+        <h2 className="designer-text-header">Graphic Designer</h2>
+
+        <p className="designer-text-paragraph">
+
+        </p>
+      </div>
+
+<div className="dividers-line"></div>
+
+   <div className="gd-gallery">
+      {GraphicDesignImages.map(gdGallery => (
+      <LazyLoadImage
+         className="gd-gallery-img"
+         key={gdGallery.key}
+         src={process.env.PUBLIC_URL + gdGallery.imgSrc}
+         alt={gdGallery.alt}
+         effect="blur"
+      /> 
+      ))}
+   </div>
 
     </div>
   

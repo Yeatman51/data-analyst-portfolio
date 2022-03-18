@@ -50,6 +50,8 @@ function Home() {
             </h3>
         </div>
 
+        <div className="dividers-line"></div>
+
         <div className="code-logos-container">
             <div className="code-logos">
                 <img src={html} alt="HTML Logo"/>

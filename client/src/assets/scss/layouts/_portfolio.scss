@@ -1,9 +1,11 @@
 /* Developer */
-.developer-text-container{
+.developer-text-container,
+.designer-text-container {
     color: white;
   }
   
-  .developer-text-header {
+  .developer-text-header,
+  .designer-text-header {
     color: white;
     font-family: digital-7;
     font-size: 9vw;
@@ -11,7 +13,8 @@
     margin: 5vw 0 4vw 0;
   }
   
-  .developer-text-paragraph {
+  .developer-text-paragraph,
+  .designer-text-paragraph {
     color: white;
     font-size: 5vw;
   }

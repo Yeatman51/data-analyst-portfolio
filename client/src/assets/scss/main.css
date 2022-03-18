@@ -627,11 +627,13 @@ label {
   }
 }
 /* Developer */
-.developer-text-container {
+.developer-text-container,
+.designer-text-container {
   color: white;
 }
 
-.developer-text-header {
+.developer-text-header,
+.designer-text-header {
   color: white;
   font-family: digital-7;
   font-size: 9vw;
@@ -639,7 +641,8 @@ label {
   margin: 5vw 0 4vw 0;
 }
 
-.developer-text-paragraph {
+.developer-text-paragraph,
+.designer-text-paragraph {
   color: white;
   font-size: 5vw;
 }
@@ -710,30 +713,6 @@ label {
     margin-bottom: 1px;
   }
 }
-/* Designer pg */
-.designer-text-container {
-  color: white;
-}
-
-.designer-text-header {
-  color: white;
-  font-family: digital-7;
-  font-size: 9vw;
-  text-align: center;
-  margin: 5vw 0 4vw 0;
-}
-
-.designer-text-paragraph {
-  text-align: center;
-  color: white;
-  font-size: 5vw;
-}
-
-.dividers-line {
-  border-top: 5px solid white;
-  margin-top: 10px;
-}
-
 /* CSS grid */
 .gd-gallery {
   display: grid;
@@ -770,64 +749,6 @@ label {
   .gd-gallery {
     grid-template-columns: minmax(300px, 1fr);
     margin: 3vw;
-  }
-}
-/* Photographer pg */
-.photographer-text-container {
-  color: white;
-}
-
-.photographer-text-header {
-  color: white;
-  font-family: digital-7;
-  font-size: 9vw;
-  text-align: center;
-  margin: 5vw 0 4vw 0;
-}
-
-.photographer-text-paragraph {
-  color: white;
-  font-size: 5vw;
-}
-
-.dividers-line {
-  border-top: 5px solid white;
-  margin-top: 10px;
-}
-
-/* CSS grid */
-.photography-gallery {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 15px;
-  overflow: hidden;
-  margin: 2vw 1vw 0 1vw;
-  padding: 25px 0 0 0;
-  justify-content: center;
-  align-items: center;
-  object-fit: cover;
-}
-
-.photography-gallery-img {
-  max-width: 100%;
-  height: auto;
-  min-width: 30px;
-}
-
-@media screen and (max-width: 900px) {
-  .photographer-text-header {
-    font-size: 15vw;
-    margin: 18vw 0px 4vw 0;
-  }
-
-  .photographer-text-paragraph {
-    color: white;
-    font-size: 10vw;
-  }
-
-  .photography-gallery {
-    grid-template-columns: minmax(300px, 1fr);
-    margin: 0px;
   }
 }
 /* about pg */
