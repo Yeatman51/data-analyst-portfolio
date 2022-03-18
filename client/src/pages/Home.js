@@ -50,7 +50,15 @@ function Home() {
             </h3>
         </div>
 
-        <div className="dividers-line"></div>
+        <div className="developer-text-container">
+         <h2 className="developer-text-header">Developer</h2>
+
+         <p className="developer-text-paragraph">
+
+         </p>
+      </div>
+
+   <div className="dividers-line"></div>
 
         <div className="code-logos-container">
             <div className="code-logos">
@@ -110,7 +118,14 @@ function Home() {
             
         </div>
 
-        <div className="dividers-line"></div>
+      <div className="designer-text-container">
+         <h2 className="designer-text-header">Graphic Designer</h2>
+
+         <p className="designer-text-paragraph">
+
+         </p>
+      </div>
+   <div className="dividers-line"></div>
 
         <div className="design-logos">
             <div className="code-logos">

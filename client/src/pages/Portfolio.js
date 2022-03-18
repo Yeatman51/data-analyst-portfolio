@@ -122,18 +122,18 @@ function Developer() {
    },
    {
      key: 4,
-     imgSrc:"/images/designer-img/account-login.png",
-     alt:"iron river ranch"
+     imgSrc:"/images/designer-img/yeatman_avatar.png",
+     alt:""
    },
    {
      key: 5,
-     imgSrc:"/images/designer-img/account-login.png",
-     alt:"Incendiary Brewing Company"
+     imgSrc:"/images/designer-img/yeatman_orca.png",
+     alt:""
    },
    {
      key: 6,
-     imgSrc:"/images/designer-img/account-login.png",
-     alt:"Village Grill"
+     imgSrc:"/images/designer-img/yeatman_RM.png",
+     alt:""
    },
  ]
 
