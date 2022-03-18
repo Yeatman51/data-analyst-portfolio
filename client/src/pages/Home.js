@@ -1,4 +1,6 @@
 import React from "react";
+import Header from "../components/Header";
+import Navbar from "../components/Navbar";
 
 import ProfilePic from '../assets/img/yeatman-profile.jpg'
 
@@ -28,6 +30,8 @@ import ae from '../assets/img/icons/design-icon/adobe-ae.png'
 function Home() {
   return (
     <div>
+      <Header/>
+      <Navbar/>
         <div className="cont-profile-pic">
             <img className="profile-pic" 
             src={ProfilePic} 
@@ -50,14 +54,38 @@ function Home() {
             </h3>
         </div>
 
-        <div className="developer-text-container">
-         <h2 className="developer-text-header">Developer</h2>
 
-         <p className="developer-text-paragraph">
+      <div className="designer-text-container">
+         <h2 className="designer-text-header">Data Analyst</h2>
+      </div>
+   <div className="dividers-line"></div>
 
-         </p>
+      <div className="design-logos">
+         <div className="code-logos">
+               <img src={figma} alt="Figma Logo"/>
+               <h3>Excel</h3>
+         </div>
+
+         <div className="code-logos">
+               <img src={figma} alt="Figma Logo"/>
+               <h3>SQL</h3>
+         </div>
+
+         <div className="code-logos">
+               <img src={figma} alt="Figma Logo"/>
+               <h3>Tab</h3>
+         </div>
+
+         <div className="code-logos">
+               <img src={figma} alt="Figma Logo"/>
+               <h3>Python</h3>
+         </div>
+
       </div>
 
+      <div className="developer-text-container">
+         <h2 className="developer-text-header">Developer</h2>
+      </div>
    <div className="dividers-line"></div>
 
         <div className="code-logos-container">
@@ -120,10 +148,6 @@ function Home() {
 
       <div className="designer-text-container">
          <h2 className="designer-text-header">Graphic Designer</h2>
-
-         <p className="designer-text-paragraph">
-
-         </p>
       </div>
    <div className="dividers-line"></div>
 

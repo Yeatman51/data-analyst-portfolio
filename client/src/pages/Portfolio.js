@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from "../components/Navbar";
 import Devcard from "../components/Devcard.js"
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
@@ -139,6 +140,7 @@ function Developer() {
 
   return (
    <div>
+   <Navbar/>
 
    <div className="designer-text-container">
       <h2 className="designer-text-header">Data Analyst</h2>

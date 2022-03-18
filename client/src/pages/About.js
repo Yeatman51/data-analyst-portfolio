@@ -1,10 +1,12 @@
 import React from "react";
+import Navbar from "../components/Navbar";
 import ProfilePic from '../assets/img/yeatman-profile-picture.jpg'
 import Resume from '../assets/img/YEATMAN_RESUME.pdf'
 
 function About() {
   return (
     <div>
+       <Navbar/>
         <div className="cont-profile-pic">
             <img className="profile-pic"
             src={ProfilePic} 

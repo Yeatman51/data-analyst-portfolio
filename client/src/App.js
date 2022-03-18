@@ -16,10 +16,7 @@ function App() {
     <div className="App background-img">
       
 
-      <Header/>
-
       <Router>
-      <Navbar/>
       <Wrapper>
           <Route exact path="/" component={Home} />
           <Route exact path="/Portfolio" component={Portfolio} />

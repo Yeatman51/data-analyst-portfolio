@@ -1,4 +1,5 @@
 import React, { useRef, useState } from 'react';
+import Navbar from "../components/Navbar";
 import emailjs from 'emailjs-com';
 import{ init } from 'emailjs-com';
 init("user_oLKAP5jY1WtcmEsTMVxh3");
@@ -35,6 +36,7 @@ function Contact() {
 
     return (
         <div>
+           <Navbar/>
             <div className="contact-text-container">
                 <h1 className="contact-text-header">Contact</h1> 
                 <p className="contact-text-paragraph">
