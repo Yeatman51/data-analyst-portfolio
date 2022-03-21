@@ -1,4 +1,5 @@
 import React from "react";
+import Navbarhome from "./Navbarhome";
 
 // import { TweenMax } from "gsap";
 
@@ -33,13 +34,15 @@ function Header() {
 
   return (
     <header>
-      <div className="yeatman-logo"></div>
+      <div className="header-title">
+         <span style={{color: "#da9f63"}}>Jon</span> 
+         <span style={{color: "#a3becf"}}>Yeataman</span>   
+      </div>
+      <p>
+this is the p text.
+      </p>
 
-      <h1 className="header-text">
-      Project Manager.
-      Data Analyst.<br></br>
-      Web Developer.<br></br>
-      </h1>
+      <Navbarhome></Navbarhome>
     </header>
   
   );

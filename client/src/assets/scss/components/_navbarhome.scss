@@ -1,5 +1,5 @@
 /* navbar */
-.desktop-navigation {
+.desktop-navigation-home {
    position: relative;
    display: flex;
    flex-direction: row;
@@ -9,14 +9,13 @@
    z-index: 1;
    padding: 2px;
    // margin: 2vw;
-   height: 5vw;
+   height: 3vw;
    border-bottom: solid $orange;
    border-width: .5vw;
-   background-color: rgba(12, 12, 12, 0.404);
-   //  border-radius: 15px;
+   //  background-color: rgba(12, 12, 12, 0.404)
   }
   
-.links {
+.links-home {
     font-family: digital-7;
     float: right;
     padding: 0;
@@ -48,22 +47,22 @@
     display: none;
 }
 
-.mobile-links {
+.mobile-links-home {
     display: none;
 }
 
-.icon-burger {
+.icon-burger-home {
     display: none;
     position: absolute;
     right: 5%;
     top: 50%;
     transform: translateY(-50%);
 }
-.icon-burger .line {
-    width: 35px;
+.icon-burger-home .line {
+    width: 30px;
     height: 5px;
     background-color: #fff;
-    margin: 3.5px;
+    margin: 5px;
     border-radius: 3px;
     transition: all .3s ease-in-out;
 }
@@ -71,20 +70,16 @@
 @media screen and (max-width: 900px) {
 
     /* navbar */
-    .desktop-navigation {
+    .desktop-navigation-home {
         display: none;
     }
 
-    .icon-burger {
-      display: flex;
-      z-index: 2;
-      position: relative;
-      margin-top: 13vw;
-      flex-direction: column;
-      align-items: flex-end;
-      justify-content: flex-end;
-      flex-wrap: nowrap;
-      align-content: center;
+    .icon-burger-home {
+        display: block;
+        z-index: 2;
+        position: relative;
+        float: right;
+        margin-top: 4vw;
         
         .line {
             background-color: var(--org);
@@ -92,7 +87,7 @@
     }
     
   
-    .mobile-links {
+    .mobile-links-home {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -101,7 +96,7 @@
         z-index: 1;
         left: 0;
         right: 0;
-        top: 2.5vh;
+        top: 21.5vh;
         bottom: 0;
         width: auto;
         height: auto;

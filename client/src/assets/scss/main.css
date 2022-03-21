@@ -34,17 +34,11 @@ body {
   font-family: "Source Sans Pro", Helvetica, Verdana, sans-serif;
 }
 
-.yeatman-logo {
-  background-image: url("/src/assets/img/yeatman-logo.svg");
-  border: none;
-  /* width: 100%; */
-  padding: 80px 0px 100px 0px;
-  /* margin-top: 3px; */
-  /* margin-bottom: 12px; */
-  /* background-image: inherit; */
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+.header-title {
+  font-family: digital-7;
+  text-align: center;
+  font-size: 4.2vw;
+  margin: 2.5vw 0 2.5vw 0;
 }
 
 .header-text {
@@ -204,10 +198,11 @@ footer {
   justify-content: center;
   align-content: center;
   z-index: 1;
-  padding: 10px;
-  height: 3vw;
-  border-radius: 15px;
-  background-color: #ca6410;
+  padding: 2px;
+  height: 5vw;
+  border-bottom: solid #ca6410;
+  border-width: 0.5vw;
+  background-color: rgba(12, 12, 12, 0.404);
 }
 
 .links {
@@ -231,7 +226,6 @@ footer {
   font-weight: bold;
   color: #fff;
   text-decoration: none;
-  text-shadow: 0px 0px 8px #726f6f, 0px 0px 25px #726f6f;
 }
 
 .active {
@@ -251,10 +245,10 @@ footer {
 }
 
 .icon-burger .line {
-  width: 30px;
+  width: 35px;
   height: 5px;
   background-color: #fff;
-  margin: 5px;
+  margin: 3.5px;
   border-radius: 3px;
   transition: all 0.3s ease-in-out;
 }
@@ -266,17 +260,129 @@ footer {
   }
 
   .icon-burger {
-    display: block;
+    display: flex;
     z-index: 2;
     position: relative;
-    float: right;
-    margin-top: 4vw;
+    margin-top: 13vw;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    align-content: center;
   }
   .icon-burger .line {
     background-color: var(--org);
   }
 
   .mobile-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 2.5vh;
+    bottom: 0;
+    width: auto;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 0;
+    transition: all 0.5s ease-in-out;
+  }
+  .mobile-links li {
+    list-style: none;
+  }
+  .mobile-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 7vw;
+  }
+}
+/* navbar */
+.desktop-navigation-home {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  z-index: 1;
+  padding: 2px;
+  height: 3vw;
+  border-bottom: solid #ca6410;
+  border-width: 0.5vw;
+}
+
+.links-home {
+  font-family: digital-7;
+  float: right;
+  padding: 0;
+  margin: 0;
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.links-home li {
+  list-style: none;
+}
+.links-home a {
+  display: inline-block;
+  margin: 0 2px 0 2px;
+  font-size: 2.2vw;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+.active {
+  display: none;
+}
+
+.mobile-links-home {
+  display: none;
+}
+
+.icon-burger-home {
+  display: none;
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.icon-burger-home .line {
+  width: 30px;
+  height: 5px;
+  background-color: #fff;
+  margin: 5px;
+  border-radius: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 900px) {
+  /* navbar */
+  .desktop-navigation-home {
+    display: none;
+  }
+
+  .icon-burger-home {
+    display: block;
+    z-index: 2;
+    position: relative;
+    float: right;
+    margin-top: 4vw;
+  }
+  .icon-burger-home .line {
+    background-color: var(--org);
+  }
+
+  .mobile-links-home {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -295,14 +401,13 @@ footer {
     padding: 0;
     transition: all 0.5s ease-in-out;
   }
-  .mobile-links li {
+  .mobile-links-home li {
     list-style: none;
   }
-  .mobile-links a {
+  .mobile-links-home a {
     text-decoration: none;
     color: white;
     font-size: 7vw;
-    text-shadow: 0px 0px 8px #726f6f, 0px 0px 25px #726f6f;
   }
 }
 .dev-info {
@@ -311,7 +416,7 @@ footer {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: linear-gradient(#094D84, #ca6410);
+  background-color: rgba(12, 12, 12, 0.404);
   font-family: digital-7;
   border-radius: 25px;
   color: white;

@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "../components/Header";
-import Navbar from "../components/Navbar";
 
 import ProfilePic from '../assets/img/yeatman-profile.jpg'
 
@@ -31,7 +30,6 @@ function Home() {
   return (
     <div>
       <Header/>
-      <Navbar/>
         <div className="cont-profile-pic">
             <img className="profile-pic" 
             src={ProfilePic} 
