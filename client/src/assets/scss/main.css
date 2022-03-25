@@ -34,25 +34,34 @@ body {
   font-family: "Source Sans Pro", Helvetica, Verdana, sans-serif;
 }
 
+.header-background {
+  border: none;
+  width: 100%;
+  height: 48vh;
+  /* background-image: inherit; */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #696767;
+}
+
 .header-title {
   font-family: digital-7;
   text-align: center;
-  font-size: 4.2vw;
-  margin: 2.5vw 0 2.5vw 0;
+  font-size: 6.2vw;
+  margin: 0vw 0 2.5vw 0;
+  padding: 5vh;
 }
 
 .header-text {
   font-family: digital-7;
   text-align: center;
   font-size: 4.2vw;
-  margin: 2.5vw 0 2.5vw 0;
+  margin: 0vw 0 2.5vw 0;
 }
 
 @media screen and (max-width: 900px) {
-  .yeatman-logo {
-    padding: 11vw;
-  }
-
   .header-text {
     font-size: 8vw;
   }

@@ -33,7 +33,7 @@ function Header() {
   // );
 
   return (
-    <header>
+    <header className="header-background">
       <div className="header-title">
          <span style={{color: "#da9f63"}}>Jon</span> 
          <span style={{color: "#a3becf"}}>Yeataman</span>   
