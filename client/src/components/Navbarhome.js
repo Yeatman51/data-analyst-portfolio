@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation  } from "react-router-dom";
 
 function Navbar() {
 
@@ -24,7 +24,7 @@ function Navbar() {
     <nav className="desktop-navigation-home">
         <ul className="links-home">
             
-            <li><Link to="./">Home</Link></li>
+            <li><Link to="./" id={location.pathname === "/" ? "active" : "nav-link"}>Home</Link></li>
             <li><Link to="./Portfolio">Portfolio</Link></li>
             <li><Link to="./About">About Me</Link></li>
             <li><Link to="./Contact">Contact</Link></li>
@@ -40,10 +40,10 @@ function Navbar() {
 
   <nav className="mobile-navigation-home">
     <ul className="mobile-links-home" style={navbarOpen ? {display:"flex"} : {display:"none"}}>          
-      <li><Link to="./" onClick={closeMenu}>Home</Link></li>
-      <li><Link to="./Portfolio" onClick={closeMenu}>Portfolio</Link></li>
-      <li><Link to="./About" onClick={closeMenu}>About Me</Link></li>
-      <li><Link to="./Contact" onClick={closeMenu}>Contact</Link></li>
+      <li><Link to="./" id={location.pathname === "/" ? "active" : "nav-link"} onClick={closeMenu}>Home</Link></li>
+      <li><Link to="./Portfolio" id={location.pathname === "/Portfolio" ? "active" : "nav-link"} onClick={closeMenu}>Portfolio</Link></li>
+      <li><Link to="./About" id={location.pathname === "/About" ? "active" : "nav-link"} onClick={closeMenu}>About Me</Link></li>
+      <li><Link to="./Contact" id={location.pathname === "/Contact" ? "active" : "nav-link"} onClick={closeMenu}>Contact</Link></li>
     </ul>
   </nav>
 </>

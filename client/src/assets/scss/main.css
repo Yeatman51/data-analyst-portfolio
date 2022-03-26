@@ -237,8 +237,8 @@ footer {
   text-decoration: none;
 }
 
-.active {
-  display: none;
+#active {
+  color: #ca6410;
 }
 
 .mobile-links {
@@ -349,8 +349,8 @@ footer {
   text-decoration: none;
 }
 
-.active {
-  display: none;
+#active {
+  color: #ca6410;
 }
 
 .mobile-links-home {
