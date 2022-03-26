@@ -35,11 +35,12 @@ function Header() {
   return (
     <header className="header-background">
       <div className="header-title">
-         <span style={{color: "#da9f63"}}>Jon</span> 
-         <span style={{color: "#a3becf"}}>Yeataman</span>   
+         <span style={{color: "rgb(202, 100, 16)"}}>Jon</span> 
+         <span style={{color: "#fff"}}>Yeatman</span>   
       </div>
-      <p>
-this is the p text.
+
+      <p className="header-paragraph">
+         this is the p text.
       </p>
 
       <Navbarhome></Navbarhome>

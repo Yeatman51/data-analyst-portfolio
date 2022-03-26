@@ -37,7 +37,6 @@ body {
 .header-background {
   border: none;
   width: 100%;
-  height: 48vh;
   /* background-image: inherit; */
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -50,20 +49,20 @@ body {
   font-family: digital-7;
   text-align: center;
   font-size: 6.2vw;
-  margin: 0vw 0 2.5vw 0;
   padding: 5vh;
 }
+.header-title span {
+  margin: 1.5vw;
+}
 
-.header-text {
-  font-family: digital-7;
+.header-paragraph {
   text-align: center;
-  font-size: 4.2vw;
-  margin: 0vw 0 2.5vw 0;
+  font-size: 3.7vw;
 }
 
 @media screen and (max-width: 900px) {
-  .header-text {
-    font-size: 8vw;
+  .header-paragraph {
+    font-size: 7vw;
   }
 }
 /* Footer */
@@ -320,7 +319,9 @@ footer {
   justify-content: center;
   align-content: center;
   z-index: 1;
+  bottom: 0;
   padding: 2px;
+  margin-top: 25vh;
   height: 3vw;
   border-bottom: solid #ca6410;
   border-width: 0.5vw;
@@ -614,6 +615,18 @@ label {
   }
 }
 /* home pg */
+.home-top-banner {
+  border: none;
+  width: 100%;
+  height: 48vh;
+  /* background-image: inherit; */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #696767;
+}
+
 .cont-profile-pic {
   display: flex;
   align-items: center;
@@ -641,7 +654,6 @@ label {
 
 .dividers-line {
   border-top: 5px solid white;
-  margin-top: 10px;
 }
 
 .icon-header {
@@ -787,11 +799,6 @@ label {
   overflow: hidden;
 }
 
-.dividers-line {
-  border-top: 5px solid white;
-  margin-top: 10px;
-}
-
 @media screen and (max-width: 900px) {
   .developer-text-container,
 .designer-text-container {
@@ -874,7 +881,6 @@ label {
 
 .dividers-line {
   border-top: 5px solid white;
-  margin-top: 10px;
 }
 
 .resume {
