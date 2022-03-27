@@ -3,6 +3,11 @@ import Header from "../components/Header";
 
 import ProfilePic from '../assets/img/yeatman-profile.jpg'
 
+import excel from '../assets/img/icons/data-icon/data-excel.png'
+import mysql from '../assets/img/icons/data-icon/data-mysql.png'
+import tableau from '../assets/img/icons/data-icon/data-tableau.png'
+import python from '../assets/img/icons/data-icon/data-python.png'
+
 import html from '../assets/img/icons/code-icon/code-html.png'
 import css from '../assets/img/icons/code-icon/code-css.png'
 import js from '../assets/img/icons/code-icon/code-js.png'
@@ -15,14 +20,14 @@ import gsap from '../assets/img/icons/code-icon/code-gsap.png'
 import bs from '../assets/img/icons/code-icon/code-bs.png'
 import tw from '../assets/img/icons/code-icon/code-tw.png'
 
-import figma from '../assets/img/icons/design-icon/design-figma.png'
-import ai from '../assets/img/icons/design-icon/adobe-ai.png'
-import xd from '../assets/img/icons/design-icon/adobe-xd.png'
-import ps from '../assets/img/icons/design-icon/adobe-ps.png'
-import id from '../assets/img/icons/design-icon/adobe-id.png'
+import fig from '../assets/img/icons/design-icon/design-fig.png'
+import ai from '../assets/img/icons/design-icon/design-ai.png'
+import xd from '../assets/img/icons/design-icon/design-xd.png'
+import ps from '../assets/img/icons/design-icon/design-ps.png'
+import id from '../assets/img/icons/design-icon/design-id.png'
 import lr from '../assets/img/icons/design-icon/adobe-lr.png'
-import pr from '../assets/img/icons/design-icon/adobe-pr.png'
-import ae from '../assets/img/icons/design-icon/adobe-ae.png'
+import pr from '../assets/img/icons/design-icon/design-pr.png'
+import ae from '../assets/img/icons/design-icon/design-ae.png'
 
 
 
@@ -66,22 +71,22 @@ function Home() {
 
       <div className="design-logos">
          <div className="code-logos">
-               <img src={figma} alt="Figma Logo"/>
+               <img src={excel} alt="Figma Logo"/>
                <h3>Excel</h3>
          </div>
 
          <div className="code-logos">
-               <img src={figma} alt="Figma Logo"/>
+               <img src={mysql} alt="Figma Logo"/>
                <h3>SQL</h3>
          </div>
 
          <div className="code-logos">
-               <img src={figma} alt="Figma Logo"/>
+               <img src={tableau} alt="Figma Logo"/>
                <h3>Tab</h3>
          </div>
 
          <div className="code-logos">
-               <img src={figma} alt="Figma Logo"/>
+               <img src={python} alt="Figma Logo"/>
                <h3>Python</h3>
          </div>
 
@@ -157,7 +162,7 @@ function Home() {
 
         <div className="design-logos">
             <div className="code-logos">
-                <img src={figma} alt="Figma Logo"/>
+                <img src={fig} alt="Figma Logo"/>
                 <h3>Figma</h3>
             </div>
 

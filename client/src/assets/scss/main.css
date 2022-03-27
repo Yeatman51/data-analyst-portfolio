@@ -43,6 +43,7 @@ body {
   background-position: center;
   background-size: cover;
   background-color: #696767;
+  background-image: url("/src/assets/img//homepage/1.png");
 }
 
 .header-title {
@@ -625,6 +626,7 @@ label {
   background-position: center;
   background-size: cover;
   background-color: #696767;
+  background-image: url("/src/assets/img/homepage/2.png");
 }
 
 .cont-profile-pic {
