@@ -33,7 +33,7 @@ footer {
     width: 6vw;
     margin: 0 1vw 0 1vw;
     overflow: hidden;
-    background: $blue;
+    background: $graydark;
     border-radius: 4vw;
     cursor: pointer;
     box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
@@ -57,13 +57,13 @@ footer {
 }
 
 .foot-wrapper .icon-button:nth-child(1):hover .icon{
-  background: var(--gray-d);
+  background: $trans1;
 }
 .foot-wrapper .icon-button:nth-child(2):hover .icon{
-  background: var(--gray-d);
+  background: $trans1;
 }
 .foot-wrapper .icon-button:nth-child(3):hover .icon{
-  background: var(--gray-d);
+  background: $trans1;
 }
 
 .foot-wrapper .icon-button .icon i{
@@ -113,20 +113,23 @@ footer {
   
       span{
         display: none;
+        transition: none;
       }
     }
     
   }
-  .foot-wrapper .icon-button:hover{
-    display: contents;
-  }
-  .foot-wrapper .icon-button:nth-child(1):hover .icon{
-    background: $blue;
-  }
-  .foot-wrapper .icon-button:nth-child(2):hover .icon{
-    background: $blue;
-  }
-  .foot-wrapper .icon-button:nth-child(3):hover .icon{
-    background: $blue;
-  }
+
+
+//   .foot-wrapper .icon-button:hover{
+//     display: contents;
+//   }
+//   .foot-wrapper .icon-button:nth-child(1):hover .icon{
+//     background: $blue;
+//   }
+//   .foot-wrapper .icon-button:nth-child(2):hover .icon{
+//     background: $blue;
+//   }
+//   .foot-wrapper .icon-button:nth-child(3):hover .icon{
+//     background: $blue;
+//   }
 }

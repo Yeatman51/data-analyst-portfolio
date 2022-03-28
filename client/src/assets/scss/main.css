@@ -103,7 +103,7 @@ footer {
   width: 6vw;
   margin: 0 1vw 0 1vw;
   overflow: hidden;
-  background: #094D84;
+  background: #3b3b3b;
   border-radius: 4vw;
   cursor: pointer;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
@@ -127,15 +127,15 @@ footer {
 }
 
 .foot-wrapper .icon-button:nth-child(1):hover .icon {
-  background: var(--gray-d);
+  background: rgba(12, 12, 12, 0.404);
 }
 
 .foot-wrapper .icon-button:nth-child(2):hover .icon {
-  background: var(--gray-d);
+  background: rgba(12, 12, 12, 0.404);
 }
 
 .foot-wrapper .icon-button:nth-child(3):hover .icon {
-  background: var(--gray-d);
+  background: rgba(12, 12, 12, 0.404);
 }
 
 .foot-wrapper .icon-button .icon i {
@@ -183,22 +183,7 @@ footer {
   }
   .foot-wrapper .icon-button span {
     display: none;
-  }
-
-  .foot-wrapper .icon-button:hover {
-    display: contents;
-  }
-
-  .foot-wrapper .icon-button:nth-child(1):hover .icon {
-    background: #094D84;
-  }
-
-  .foot-wrapper .icon-button:nth-child(2):hover .icon {
-    background: #094D84;
-  }
-
-  .foot-wrapper .icon-button:nth-child(3):hover .icon {
-    background: #094D84;
+    transition: none;
   }
 }
 /* navbar */
