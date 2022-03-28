@@ -35,7 +35,7 @@ function Header() {
   return (
     <header className="header-background">
       <div className="header-title">
-         <span style={{color: "rgb(202, 100, 16)"}}>Jon</span> 
+         <span style={{color: "#CF5609"}}>Jon</span> 
          <span style={{color: "#fff"}}>Yeatman</span>   
       </div>
 
