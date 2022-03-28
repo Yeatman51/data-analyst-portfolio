@@ -3,10 +3,12 @@
     flex-direction: column;
     align-content: center;
     align-items: center;
+    min-height: 70vh;
 }
 
 .contact-form {
     max-width: 85vw;
+    min-height: 50vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -40,6 +42,10 @@ label {
     margin: 0.5vw auto 1vw auto;
     padding: 1vw 1.3vw 1vw 1.3vw;
     min-width: 85%;
+}
+
+.contact-form-message {
+   min-height: 15vw;
 }
 
 .contact-form-name:hover,
