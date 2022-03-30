@@ -142,7 +142,7 @@ function Developer() {
    <div>
    <Navbar/>
 
-   <div className="designer-text-container">
+   {/* <div className="designer-text-container">
       <h2 className="designer-text-header">Data Analyst</h2>
 
       <p className="designer-text-paragraph">
@@ -164,7 +164,7 @@ function Developer() {
         www={card1.www}
       /> 
     ))}
-    </div>
+    </div> */}
       
       <div className="developer-text-container">
         <h2 className="developer-text-header">Developer</h2>

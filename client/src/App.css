@@ -32,7 +32,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-color: var(--blue);
+  background-color: var(--gray-d);
   background-image: url("/src/assets/img/portfolio-page-background.png");
 }
 
