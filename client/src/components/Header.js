@@ -40,7 +40,7 @@ function Header() {
       </div>
 
       <p className="header-paragraph">
-         this is the p text.
+         
       </p>
 
       <Navbarhome></Navbarhome>

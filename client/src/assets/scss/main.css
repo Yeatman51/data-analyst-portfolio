@@ -48,7 +48,7 @@ body {
 .header-title {
   font-family: digital-7;
   text-align: center;
-  font-size: 6.2vw;
+  font-size: 8.2vw;
   padding: 5vh;
 }
 .header-title span {
@@ -60,9 +60,13 @@ body {
   font-size: 3.7vw;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 856px) {
   .header-background {
     min-height: 32vh;
+  }
+
+  .header-title {
+    font-size: 10vw;
   }
 
   .header-paragraph {
@@ -164,7 +168,7 @@ footer {
   text-decoration: none;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 856px) {
   .foot-wrapper .icon-button {
     height: 15vw;
     width: 15vw;
@@ -250,7 +254,7 @@ footer {
   transition: all 0.3s ease-in-out;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 856px) {
   /* navbar */
   .desktop-navigation {
     display: none;
@@ -364,7 +368,7 @@ footer {
   transition: all 0.3s ease-in-out;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 856px) {
   /* navbar */
   .desktop-navigation-home {
     display: none;
@@ -467,7 +471,7 @@ footer {
   margin: 10px 0 10px 0;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 856px) {
   .dev-info {
     /* flex-direction: column; */
     overflow: hidden;
@@ -566,7 +570,7 @@ label {
   margin: auto;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 856px) {
   .contact-form-container {
     min-height: 52vh;
   }
@@ -613,7 +617,7 @@ label {
 .home-top-banner {
   border: none;
   width: 100%;
-  height: 48vh;
+  height: 50vh;
   /* background-image: inherit; */
   background-repeat: no-repeat;
   background-position: center;
@@ -710,7 +714,7 @@ label {
   font-size: 5vw;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 856px) {
   .home-top-banner {
     background-position: bottom;
     height: 36vh;
@@ -753,24 +757,25 @@ label {
   }
 }
 /* Developer */
+.data-text-container,
 .developer-text-container,
 .designer-text-container {
   color: white;
 }
 
+.data-text-header,
 .developer-text-header,
 .designer-text-header {
   color: white;
   font-family: digital-7;
-  font-size: 9vw;
+  font-size: 8vw;
   text-align: center;
-  margin: 5vw 0 4vw 0;
+  margin: 5vw 0 0vw 0;
 }
 
-.developer-text-paragraph,
+.data-text-paragraph .developer-text-paragraph,
 .designer-text-paragraph {
   color: white;
-  font-size: 5vw;
 }
 
 .portfolio-container-row-1 {
@@ -799,7 +804,7 @@ label {
   overflow: hidden;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 856px) {
   .developer-text-container,
 .designer-text-container {
     color: white;
@@ -860,7 +865,7 @@ label {
   min-width: 30px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 856px) {
   .gd-gallery {
     grid-template-columns: minmax(300px, 1fr);
     margin: 3vw;
@@ -908,7 +913,7 @@ label {
   padding: 0 1vw 0 1vw;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 856px) {
   /* about pg */
   .about-text {
     font-size: 6.5vw;
@@ -943,7 +948,7 @@ label {
   text-align: center;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 856px) {
   .contact-text-header {
     font-size: 15vw;
     margin: 18vw 0px 4vw 0;

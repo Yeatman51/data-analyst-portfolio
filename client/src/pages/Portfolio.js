@@ -142,10 +142,10 @@ function Developer() {
    <div>
    <Navbar/>
 
-   {/* <div className="designer-text-container">
-      <h2 className="designer-text-header">Data Analyst</h2>
+   {/* <div className="data-text-container">
+      <h2 className="data-text-header">Data Analyst</h2>
 
-      <p className="designer-text-paragraph">
+      <p className="data-text-paragraph">
 
       </p>
    </div>

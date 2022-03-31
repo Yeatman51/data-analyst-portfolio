@@ -13,7 +13,7 @@
 .header-title{
    font-family: digital-7;
    text-align: center;
-   font-size: 6.2vw;
+   font-size: 8.2vw;
    padding: 5vh;
 
    span {
@@ -26,13 +26,16 @@
    font-size: 3.7vw;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 856px) {
 
    .header-background {
       min-height: 32vh;
    }
+   .header-title{
+      font-size: 10vw;
+   }
 
   .header-paragraph {
-   font-size: 4vw;
-}
+      font-size: 4vw;
+   }
 }

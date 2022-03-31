@@ -1,22 +1,25 @@
 /* Developer */
+.data-text-container,
 .developer-text-container,
 .designer-text-container {
     color: white;
   }
   
+  .data-text-header,
   .developer-text-header,
   .designer-text-header {
     color: white;
     font-family: digital-7;
-    font-size: 9vw;
+    font-size: 8vw;
     text-align: center;
-    margin: 5vw 0 4vw 0;
+    margin: 5vw 0 0vw 0;
   }
   
+  .data-text-paragraph
   .developer-text-paragraph,
   .designer-text-paragraph {
     color: white;
-    font-size: 5vw;
+   //  font-size: 5vw;
   }
   
   .portfolio-container-row-1 {
@@ -45,7 +48,7 @@
    overflow: hidden; 
  }
   
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 856px) {
     .developer-text-container,
     .designer-text-container{
       color: white;
