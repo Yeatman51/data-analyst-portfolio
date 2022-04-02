@@ -87,11 +87,10 @@
       align-content: center;
         
         .line {
-            background-color: var(--org);
+            background-color: $orange;
         }
     }
     
-  
     .mobile-links {
         display: flex;
         flex-direction: column;

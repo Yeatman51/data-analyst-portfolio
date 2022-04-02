@@ -78,10 +78,11 @@
     .icon-burger-home {
         display: block;
         z-index: 2;
-        position: absolute;
+        position: relative;
         float: right;
+        height: 0vh;
       //   margin-top: 4vw;
-        min-height: 33vh;
+      //   min-height: 55vw;
         
         .line {
             background-color: $orange;
@@ -98,7 +99,7 @@
         z-index: 1;
         left: 0;
         right: 0;
-        top: 21.5vh;
+        top: 2.5vw;
         bottom: 0;
         width: auto;
         height: auto;

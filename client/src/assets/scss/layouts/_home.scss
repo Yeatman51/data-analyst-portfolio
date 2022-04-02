@@ -105,7 +105,7 @@
 @media screen and (max-width: 856px) {
    .home-top-banner {
       background-position: bottom;
-      height: 36vh;
+      height: 66vw;
    }
   .cont-profile-pic {
     margin: 20vw 0 0 0;
@@ -131,6 +131,9 @@
   }
   .design-logos {
     grid-template-columns: 1fr 1fr;
+  }
+  .gsap {
+     display: none;
   }
   .email {
     font-size: 7.5vw;

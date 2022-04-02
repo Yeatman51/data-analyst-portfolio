@@ -138,7 +138,7 @@ function Home() {
                 <h3>GIT</h3>
             </div>
 
-            <div className="code-logos">
+            <div className="code-logos gsap">
                 {/* <img src={gsap} alt="Greensock Logo"/>
                 <h3>Greensock</h3> */}
             </div>

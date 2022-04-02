@@ -62,7 +62,7 @@ body {
 
 @media screen and (max-width: 856px) {
   .header-background {
-    min-height: 32vh;
+    min-height: 55vw;
   }
 
   .header-title {
@@ -272,7 +272,7 @@ footer {
     align-content: center;
   }
   .icon-burger .line {
-    background-color: var(--org);
+    background-color: #CF5609;
   }
 
   .mobile-links {
@@ -377,9 +377,9 @@ footer {
   .icon-burger-home {
     display: block;
     z-index: 2;
-    position: absolute;
+    position: relative;
     float: right;
-    min-height: 33vh;
+    height: 0vh;
   }
   .icon-burger-home .line {
     background-color: #CF5609;
@@ -394,7 +394,7 @@ footer {
     z-index: 1;
     left: 0;
     right: 0;
-    top: 21.5vh;
+    top: 2.5vw;
     bottom: 0;
     width: auto;
     height: auto;
@@ -525,7 +525,7 @@ label {
 }
 
 .contact-form-message {
-  min-height: 15vw;
+  min-height: 20vw;
 }
 
 .contact-form-name:hover,
@@ -576,10 +576,10 @@ label {
   }
 
   .contact-form {
-    min-height: 50vh;
+    height: 106vw;
     max-width: 90vw;
     border-radius: 25px;
-    margin: 5.5vw 0 2.5vw 0;
+    margin: 5.5vw 0 5.5vw 0;
     padding: 2vw 0 2vw 0;
     width: 100%;
   }
@@ -603,6 +603,18 @@ label {
     padding: 1vw 1.3vw 1vw 1.3vw;
     min-width: 85%;
     max-width: 94%;
+  }
+
+  .contact-form-message {
+    min-height: 30vw;
+  }
+
+  #contact-form-send {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5vw auto 2vw auto;
   }
 
   .contact-form-submit {
@@ -717,7 +729,7 @@ label {
 @media screen and (max-width: 856px) {
   .home-top-banner {
     background-position: bottom;
-    height: 36vh;
+    height: 66vw;
   }
 
   .cont-profile-pic {
@@ -750,6 +762,10 @@ label {
 
   .design-logos {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .gsap {
+    display: none;
   }
 
   .email {
