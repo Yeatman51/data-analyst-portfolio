@@ -1,4 +1,5 @@
-import React from "react";
+import React, {useState} from "react";
+import { Link } from "react-router-dom";
 import Header from "../components/Header";
 
 import ProfilePic from '../assets/img/yeatman-profile.jpg'
@@ -29,7 +30,9 @@ import lr from '../assets/img/icons/design-icon/design-lr.png'
 import pr from '../assets/img/icons/design-icon/design-pr.png'
 import ae from '../assets/img/icons/design-icon/design-ae.png'
 
-
+const scrollToTop = () => {
+   window.scrollTo(0, 0)
+}
 
 function Home() {
   return (
@@ -49,7 +52,11 @@ function Home() {
                   Skilled in Business Planning, Operations Management, Web Design, HTML, CSS, and JavaScript. Strong operations professional with 
                   a Certificate focused in Full Stack Web Development from Michigan State University. 
             </p>
+            <button className="home-portfolio-btn" onClick={scrollToTop}><Link to="./Portfolio">Portfolio</Link></button>
          </div>
+
+         
+
       </div>
         
    <div className="dividers-line"></div>

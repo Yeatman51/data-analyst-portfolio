@@ -655,6 +655,7 @@ label {
 
 .about-text-home {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   align-content: center;
@@ -663,6 +664,20 @@ label {
   margin: 1vw 0 0vw 0;
   padding: 2vw;
   font-size: 2.5vw;
+}
+
+.home-portfolio-btn {
+  font-family: digital-7;
+  background-color: rgba(255, 255, 255, 0.15);
+  color: white;
+  border: 3px solid #CF5609;
+  border-radius: 1rem;
+  padding: 1.3vw;
+}
+.home-portfolio-btn a {
+  text-decoration: none;
+  color: white;
+  font-size: 5vw;
 }
 
 .dividers-line {
@@ -743,9 +758,18 @@ label {
   }
 
   .about-text-home {
-    padding: 0 2vw 2vw 2vw;
+    padding: 0 2vw 5vw 2vw;
     font-size: 6vw;
     margin: 3vw 0 0 0;
+  }
+
+  .home-portfolio-btn {
+    border: 3px solid #CF5609;
+    border-radius: 0.5rem;
+    padding: 3vw;
+  }
+  .home-portfolio-btn a {
+    font-size: 10vw;
   }
 
   .code-logos {

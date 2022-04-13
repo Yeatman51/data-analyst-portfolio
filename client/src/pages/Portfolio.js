@@ -204,7 +204,7 @@ function Developer() {
     ))}
     </div> */}
 
-    <div className="portfolio-container-row-3">
+    {/* <div className="portfolio-container-row-3">
     {cardsRow3.map(card3 => (
       <Devcard 
         key={card3.key}
@@ -216,7 +216,7 @@ function Developer() {
         www={card3.www}
       /> 
     ))}
-    </div>
+    </div> */}
 
     <div className="designer-text-container">
         <h2 className="designer-text-header">Graphic Designer</h2>
