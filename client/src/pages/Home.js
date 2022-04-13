@@ -37,23 +37,20 @@ function Home() {
       <Header/>
 
       <div className="home-top-banner">
-
+         <div className="cont-profile-pic">
+            <img className="profile-pic" 
+            src={ProfilePic} 
+            alt="Jon Yeatman Profile"/>
+         </div>
+         
+         <div className="about-text-home">
+            <p>
+                  Experienced Business Owner with a demonstrated history of working in the computer software and graphics industry. 
+                  Skilled in Business Planning, Operations Management, Web Design, HTML, CSS, and JavaScript. Strong operations professional with 
+                  a Certificate focused in Full Stack Web Development from Michigan State University. 
+            </p>
+         </div>
       </div>
-   <div className="dividers-line"></div>
-
-      <div className="cont-profile-pic">
-         <img className="profile-pic" 
-         src={ProfilePic} 
-         alt="Jon Yeatman Profile"/>
-      </div>
-        
-      <dir className="about-text-home">
-         <p>
-               Experienced Business Owner with a demonstrated history of working in the computer software and graphics industry. 
-               Skilled in Business Planning, Operations Management, Web Design, HTML, CSS, and JavaScript. Strong operations professional with 
-               a Certificate focused in Full Stack Web Development from Michigan State University. 
-         </p>
-      </dir>
         
    <div className="dividers-line"></div>
 
