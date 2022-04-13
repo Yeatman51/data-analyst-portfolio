@@ -2,11 +2,12 @@
 .home-top-banner {
    border: none;
    width: 100%;
-   height: 70vh;
+   min-height: 70vh;
+   position: relative;
    /* background-image: inherit; */
    // background-attachment: fixed;
    background-repeat: no-repeat;
-   background-position: center;
+   background-position: bottom;
    background-size: cover;
    background-color: $gray;
    background-image: url("/src/assets/img/homepage/2.png");
@@ -16,7 +17,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 5vw;
+  margin-top: 0vw;
+  padding-top: 5vw;
 }
 
 .profile-pic {
@@ -32,8 +34,8 @@
   align-content: center;
   justify-items: center;
   text-align: center;
-  margin: 1vw 0 1vw 0;
-  padding: 0;
+  margin: 1vw 0 0vw 0;
+  padding: 2vw;
   font-size: 2.5vw;
 }
 
@@ -105,7 +107,7 @@
 @media screen and (max-width: 856px) {
    .home-top-banner {
       background-position: bottom;
-      height: 99vh;
+      // height: 99vh;
    }
   .cont-profile-pic {
     margin-top: 0;
@@ -115,7 +117,7 @@
     width: 60vw;
   }
   .about-text-home {
-    padding: 0 1vw 0 1vw;
+    padding: 0 2vw 2vw 2vw;
     font-size: 6vw;
     margin: 3vw 0 0 0;
   }
