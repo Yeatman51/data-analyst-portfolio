@@ -46,7 +46,7 @@ body {
 }
 
 .header-title {
-  font-family: digital-7;
+  font-family: Norwester;
   text-align: center;
   font-size: 8.2vw;
   padding: 5vh;
@@ -207,7 +207,7 @@ footer {
 }
 
 .links {
-  font-family: digital-7;
+  font-family: Norwester;
   float: right;
   padding: 0;
   margin: 0;
@@ -321,7 +321,7 @@ footer {
 }
 
 .links-home {
-  font-family: digital-7;
+  font-family: Norwester;
   float: right;
   padding: 0;
   margin: 0;
@@ -465,7 +465,7 @@ footer {
   max-width: 100%;
   max-height: 30vh;
   border: 3px solid #CF5609;
-  border-radius: 5%;
+  border-radius: 1em;
   justify-content: center;
   align-items: center;
   margin: 10px 0 10px 0;
@@ -496,7 +496,7 @@ footer {
   align-items: flex-start;
   background-color: rgba(12, 12, 12, 0.404);
   border: 3px solid white;
-  font-family: digital-7;
+  font-family: Norwester;
   border-radius: 25px;
   color: white;
   margin: 2vw 0 2vw 0;
@@ -542,7 +542,7 @@ label {
 }
 
 .contact-form-submit {
-  font-family: digital-7;
+  font-family: Norwester;
   background-color: rgba(255, 255, 255, 0.15);
   color: white;
   border: 3px solid #CF5609;
@@ -667,7 +667,7 @@ label {
 }
 
 .home-portfolio-btn {
-  font-family: digital-7;
+  font-family: Norwester;
   background-color: rgba(255, 255, 255, 0.15);
   color: white;
   border: 3px solid #CF5609;
@@ -693,8 +693,18 @@ label {
   font-size: 4vw;
 }
 
+.data-text-header-home,
+.developer-text-header-home,
+.designer-text-header-home {
+  color: #CF5609;
+  font-family: Norwester;
+  font-size: 8vw;
+  text-align: center;
+  margin: 5vw 0 0vw 0;
+}
+
 .code-logos-container {
-  font-family: digital-7;
+  font-family: Norwester;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-items: center;
@@ -719,7 +729,7 @@ label {
 }
 
 .design-logos {
-  font-family: digital-7;
+  font-family: Norwester;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-items: center;
@@ -731,8 +741,21 @@ label {
   min-width: 30px;
 }
 
+.email-home {
+  font-family: Norwester;
+  color: #CF5609;
+  margin: 1vw 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  text-align: center;
+  font-size: 5vw;
+}
+
 .email {
-  font-family: digital-7;
+  font-family: Norwester;
   margin: 1vw 0 0 0;
   display: flex;
   justify-content: center;
@@ -809,7 +832,7 @@ label {
 .developer-text-header,
 .designer-text-header {
   color: white;
-  font-family: digital-7;
+  font-family: Norwester;
   font-size: 8vw;
   text-align: center;
   margin: 5vw 0 0vw 0;
@@ -978,7 +1001,7 @@ label {
 
 .contact-text-header {
   color: white;
-  font-family: digital-7;
+  font-family: Norwester;
   font-size: 9vw;
   text-align: center;
   margin: 5vw 0 4vw 0;
@@ -998,5 +1021,44 @@ label {
 
   .contact-text-paragraph {
     font-size: 10vw;
+  }
+}
+.project-title {
+  font-size: 6.5vw;
+}
+
+.project-pic-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.data1-pic {
+  width: 215px;
+  box-shadow: 5px 5px 10px rgb(37, 37, 37);
+}
+
+.project-description {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  margin: 2.5vw 0 0 0;
+  padding: 0 1vw 0 1vw;
+  font-size: 3vw;
+}
+
+.dividers-line {
+  border-top: 5px solid white;
+}
+
+@media screen and (max-width: 856px) {
+  /* about pg */
+  .about-text {
+    font-size: 6.5vw;
+    padding: 0 2vw 0 2vw;
   }
 }/*# sourceMappingURL=main.css.map */

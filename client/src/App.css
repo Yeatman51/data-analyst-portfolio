@@ -18,6 +18,19 @@
       font-display: swap;
     }
 
+@font-face {
+   font-family: 'Norwester';
+   src: url('../src/assets/text/norwester-regular/Norwester-Regular.eot');
+   src: url('../src/assets/text/norwester-regular/Norwester-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../src/assets/text/norwester-regular/Norwester-Regular.woff2') format('woff2'),
+         url('../src/assets/text/norwester-regular/Norwester-Regular.woff') format('woff'),
+         url('../src/assets/text/norwester-regular/Norwester-Regular.ttf') format('truetype'),
+         url('../src/assets/text/norwester-regular/Norwester-Regular.svg') format('svg');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+  }
+
 body {
 font-family: 'Roboto', sans-serif;
 color: white;

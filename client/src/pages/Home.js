@@ -68,36 +68,37 @@ function Home() {
       </div>
 
 
-      <div className="designer-text-container">
-         <h2 className="designer-text-header">Data Analyst</h2>
+      <div className="data-text-container">
+         <h2 className="data-text-header-home">data analyst</h2>
       </div>
+
    <div className="dividers-line"></div>
 
       <div className="design-logos">
          <div className="code-logos">
-               <img src={excel} alt="Figma Logo"/>
-               <h3>Excel</h3>
+               <img src={excel} alt="excel"/>
+               <h3>excel</h3>
          </div>
 
          <div className="code-logos">
-               <img src={mysql} alt="Figma Logo"/>
+               <img src={mysql} alt="SQL"/>
                <h3>SQL</h3>
          </div>
 
          <div className="code-logos">
-               <img src={tableau} alt="Figma Logo"/>
-               <h3>Tab</h3>
+               <img src={tableau} alt="tableau"/>
+               <h3>tableau</h3>
          </div>
 
          <div className="code-logos">
-               <img src={python} alt="Figma Logo"/>
-               <h3>Python</h3>
+               <img src={python} alt="python"/>
+               <h3>python</h3>
          </div>
 
       </div>
 
       <div className="developer-text-container">
-         <h2 className="developer-text-header">Developer</h2>
+         <h2 className="developer-text-header-home">developer</h2>
       </div>
    <div className="dividers-line"></div>
 
@@ -124,7 +125,7 @@ function Home() {
 
             <div className="code-logos">
                 <img src={re} alt="React Logo"/>
-                <h3>React JS</h3>
+                <h3>react JS</h3>
             </div>
 
             <div className="code-logos">
@@ -149,30 +150,30 @@ function Home() {
 
             <div className="code-logos">
                 <img src={bs} alt="Bootstrap Logo"/>
-                <h3>Bootstrap</h3>
+                <h3>bootstrap</h3>
             </div>
 
             <div className="code-logos">
                 <img src={tw} alt="Tailwind Logo"/>
-                <h3>Tailwind</h3>
+                <h3>tailwind</h3>
             </div>
             
         </div>
 
       <div className="designer-text-container">
-         <h2 className="designer-text-header">Graphic Designer</h2>
+         <h2 className="designer-text-header-home">graphic designer</h2>
       </div>
    <div className="dividers-line"></div>
 
         <div className="design-logos">
             <div className="code-logos">
                 <img src={fig} alt="Figma Logo"/>
-                <h3>Figma</h3>
+                <h3>figma</h3>
             </div>
 
             <div className="code-logos">
                 <img src={ai} alt="Illustrator Logo"/>
-                <h3>Illustrator</h3>
+                <h3>illustrator</h3>
             </div>
 
             <div className="code-logos">
@@ -182,7 +183,7 @@ function Home() {
 
             <div className="code-logos">
                 <img src={ps} alt="Photoshop Logo"/>
-                <h3>Photoshop</h3>
+                <h3>photoshop</h3>
             </div>
         
             <div className="code-logos">
@@ -192,22 +193,22 @@ function Home() {
 
             <div className="code-logos">
                 <img src={lr} alt="Lightroom Logo"/>
-                <h3>Lightroom</h3>
+                <h3>lightroom</h3>
             </div>
 
             <div className="code-logos">
                 <img src={pr} alt="Premiere Pro Logo"/>
-                <h3>Premiere Pro</h3>
+                <h3>premiere pro</h3>
             </div>
 
             <div className="code-logos">
                 <img src={ae} alt="After Effects Logo"/>
-                <h3>After Effects</h3>
+                <h3>after effects</h3>
             </div>
 
         </div>
 
-        <div className="email">
+        <div className="email-home">
             <h3>jonlyeatman@gmail.com</h3>
         </div>
 
