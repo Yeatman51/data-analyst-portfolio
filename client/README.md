@@ -1,19 +1,19 @@
-## Jon L Yeatman Portfolio
+## Jon Yeatman's Portfolio
 
-<p align="center"><img src="src/assets/img/JonYeatmanTimeline.png" alt="Yeatman Header Photo" align="center"></p><br>
+<p align="center"><img src="client/public/JonYeatmanPortfolioTimeline.png" alt="Yeatman Header Photo" align="center"></p><br>
 
 ## Links:
 
 Github: https://github.com/Yeatman51
 
-Repository: https://github.com/Yeatman51/jonlyeatman-portfolio
+Repository: https://github.com/Yeatman51/data-analyst-portfolio
 
-Live Demo: https://yeatman51.github.io/jonlyeatman-portfolio/
+Portfolio: https://www.jonyeatman.com/
 
 Linkedin: https://www.linkedin.com/in/jon-yeatman/
 
 ---
 
 ## Description:
-This portfolio page was created and developed by Jon Yeatman to display some of my previous work and projects focused in Full Stack Web Development, Graphic Design, and Photography
+This portfolio page was created and developed by Jon Yeatman to display some of my previous work and projects focused in Data analytics, Web Development, and Graphic Design.
 
