@@ -168,6 +168,15 @@
          font-size: 10vw;
       }
    }
+   .data-text-header-home,
+   .developer-text-header-home,
+   .designer-text-header-home {
+      color: $orange;
+      font-family: Norwester;
+      font-size: 15vw;
+      text-align: center;
+      margin: 5vw 0 0vw 0;
+   }
   .code-logos {
     width: 100%;
     font-size: 6.5vw;

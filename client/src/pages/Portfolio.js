@@ -1,12 +1,40 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Devcard from "../components/Devcard.js"
+import Datacard from "../components/Datacard.js"
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 
-function Developer() {
+function Portfolio() {
 
-  const cardsRow1 = [
+   const dataRow1 = [
+      {
+        key: 1,
+        dataPage: "./Data1",
+        title:"Data 1",
+        imgSrc:"/JonYeatmanPortfolioTimeline.png",
+        alt:"pic",
+        description:"This business focused application allows project managers to quickly enter Show room measurements and convert them into necessary panels for production",
+      },
+      // {
+      //   key: 2,
+      //   dataPage: "./Data1",
+      //   title:"Data 2",
+      //   imgSrc:"/images/dev-card-img/wall-pro.png",
+      //   alt:"pic",
+      //   description:"Treat YO Shelf is a user-friendly app that lets you organize your books and and future reading lists",
+      // },
+      // {
+      //   key: 3,
+      //   dataPage: "./Data1",
+      //   title:"Data 3",
+      //   imgSrc:"/images/dev-card-img/wall-pro.png",
+      //   alt:"pic",
+      //   description:"DINGEN is a food app design to take the struggle of preparing tonight's dinner",
+      // }
+    ]
+  
+   const cardsRow1 = [
     {
       key: 1,
       title:"Wall Pro",
@@ -142,8 +170,8 @@ function Developer() {
    <div>
    <Navbar/>
 
-   {/* <div className="data-text-container">
-      <h2 className="data-text-header">Data Analyst</h2>
+   <div className="data-text-container">
+      <h2 className="data-text-header">data analyst</h2>
 
       <p className="data-text-paragraph">
 
@@ -152,22 +180,21 @@ function Developer() {
 
 <div className="dividers-line"></div>
    
-   <div className="portfolio-container-row-1">
-    {cardsRow1.map(card1 => (
-      <Devcard 
-        key={card1.key}
-        title={card1.title}
-        imgSrc={card1.imgSrc}
-        alt={card1.alt}
-        description={card1.description}
-        github={card1.github}
-        www={card1.www}
+   <div className="data-portfolio-container-row-1">
+    {dataRow1.map(data1 => (
+      <Datacard 
+        key={data1.key}
+        dataPage={data1.dataPage}
+        title={data1.title}
+        imgSrc={data1.imgSrc}
+        alt={data1.alt}
+        description={data1.description}
       /> 
     ))}
-    </div> */}
+    </div>
       
       <div className="developer-text-container">
-        <h2 className="developer-text-header">Developer</h2>
+        <h2 className="developer-text-header">developer</h2>
 
         <p className="developer-text-paragraph">
 
@@ -219,7 +246,7 @@ function Developer() {
     </div> */}
 
     <div className="designer-text-container">
-        <h2 className="designer-text-header">Graphic Designer</h2>
+        <h2 className="designer-text-header">graphic designer</h2>
 
         <p className="designer-text-paragraph">
 
@@ -245,4 +272,4 @@ function Developer() {
   );
 }
 
-export default Developer;
+export default Portfolio;

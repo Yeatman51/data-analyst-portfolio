@@ -25,9 +25,9 @@ function Navbar() {
         <ul className="links-home">
             
             <li><Link to="./" id={location.pathname === "/" ? "active" : "nav-link"}>Home</Link></li>
-            <li><Link to="./Portfolio">Portfolio</Link></li>
-            <li><Link to="./About">About Me</Link></li>
-            <li><Link to="./Contact">Contact</Link></li>
+            <li><Link to="./Portfolio">portfolio</Link></li>
+            <li><Link to="./About">about me</Link></li>
+            <li><Link to="./Contact">contact</Link></li>
             
         </ul>
     </nav>
@@ -40,10 +40,10 @@ function Navbar() {
 
   <nav className="mobile-navigation-home">
     <ul className="mobile-links-home" style={navbarOpen ? {display:"flex"} : {display:"none"}}>          
-      <li><Link to="./" id={location.pathname === "/" ? "active" : "nav-link"} onClick={closeMenu}>Home</Link></li>
-      <li><Link to="./Portfolio" id={location.pathname === "/Portfolio" ? "active" : "nav-link"} onClick={closeMenu}>Portfolio</Link></li>
-      <li><Link to="./About" id={location.pathname === "/About" ? "active" : "nav-link"} onClick={closeMenu}>About Me</Link></li>
-      <li><Link to="./Contact" id={location.pathname === "/Contact" ? "active" : "nav-link"} onClick={closeMenu}>Contact</Link></li>
+      <li><Link to="./" id={location.pathname === "/" ? "active" : "nav-link"} onClick={closeMenu}>home</Link></li>
+      <li><Link to="./Portfolio" id={location.pathname === "/Portfolio" ? "active" : "nav-link"} onClick={closeMenu}>portfolio</Link></li>
+      <li><Link to="./About" id={location.pathname === "/About" ? "active" : "nav-link"} onClick={closeMenu}>about me</Link></li>
+      <li><Link to="./Contact" id={location.pathname === "/Contact" ? "active" : "nav-link"} onClick={closeMenu}>contact</Link></li>
     </ul>
   </nav>
 </>

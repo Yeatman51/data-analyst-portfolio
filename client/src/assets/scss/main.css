@@ -277,6 +277,7 @@ footer {
 
   .mobile-links {
     display: flex;
+    font-family: Norwester;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
@@ -387,6 +388,7 @@ footer {
 
   .mobile-links-home {
     display: flex;
+    font-family: Norwester;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
@@ -420,7 +422,7 @@ footer {
   align-items: center;
   text-align: center;
   background-color: rgba(12, 12, 12, 0.404);
-  font-family: digital-7;
+  font-family: Norwester;
   border-radius: 25px;
   color: white;
   margin: 10px;
@@ -580,7 +582,7 @@ label {
     max-width: 90vw;
     border-radius: 25px;
     margin: 5.5vw 0 5.5vw 0;
-    padding: 2vw 0 2vw 0;
+    padding: 5vw 0 5vw 0;
     width: 100%;
   }
 
@@ -795,6 +797,16 @@ label {
     font-size: 10vw;
   }
 
+  .data-text-header-home,
+.developer-text-header-home,
+.designer-text-header-home {
+    color: #CF5609;
+    font-family: Norwester;
+    font-size: 15vw;
+    text-align: center;
+    margin: 5vw 0 0vw 0;
+  }
+
   .code-logos {
     width: 100%;
     font-size: 6.5vw;
@@ -843,6 +855,14 @@ label {
   color: white;
 }
 
+.data-portfolio-container-row-1 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+
 .portfolio-container-row-1 {
   display: flex;
   flex-direction: row;
@@ -870,20 +890,17 @@ label {
 }
 
 @media screen and (max-width: 856px) {
-  .developer-text-container,
+  .data-text-container,
+.developer-text-container,
 .designer-text-container {
     color: white;
   }
 
-  .developer-text-header,
+  .data-text-header,
+.developer-text-header,
 .designer-text-header {
     font-size: 15vw;
-    margin: 18vw 0px 4vw 0;
-  }
-
-  .developer-text-paragraph,
-.designer-text-paragraph {
-    font-size: 10vw;
+    margin: 15vw 0 2vw 0;
   }
 
   .portfolio-container {
@@ -894,6 +911,15 @@ label {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2px;
+  }
+
+  .data-portfolio-container-row-1 {
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1px;
   }
 
   .portfolio-container-row-1,
@@ -933,7 +959,7 @@ label {
 @media screen and (max-width: 856px) {
   .gd-gallery {
     grid-template-columns: minmax(300px, 1fr);
-    margin: 3vw;
+    margin: 8vw;
   }
 }
 /* about pg */
@@ -947,10 +973,6 @@ label {
   margin: 2.5vw 0 0 0;
   padding: 0 1vw 0 1vw;
   font-size: 3vw;
-}
-
-.dividers-line {
-  border-top: 5px solid white;
 }
 
 .resume {
@@ -1049,10 +1071,6 @@ label {
   margin: 2.5vw 0 0 0;
   padding: 0 1vw 0 1vw;
   font-size: 3vw;
-}
-
-.dividers-line {
-  border-top: 5px solid white;
 }
 
 @media screen and (max-width: 856px) {

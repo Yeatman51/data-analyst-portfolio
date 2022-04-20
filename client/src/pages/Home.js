@@ -52,7 +52,7 @@ function Home() {
                   Skilled in Business Planning, Operations Management, Web Design, HTML, CSS, and JavaScript. Strong operations professional with 
                   a Certificate focused in Full Stack Web Development from Michigan State University. 
             </p>
-            <button className="home-portfolio-btn" onClick={scrollToTop}><Link to="./Portfolio">Portfolio</Link></button>
+            <button className="home-portfolio-btn" onClick={scrollToTop}><Link to="./Portfolio">portfolio</Link></button>
          </div>
 
          
