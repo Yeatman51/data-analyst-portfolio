@@ -9,6 +9,7 @@ import Home from './pages/Home.js';
 import Portfolio from './pages/Portfolio.js';
 import About from './pages/About.js';
 import Contact from './pages/Contact.js';
+import Data1 from './pages/Data1';
 import Footer from './components/Footer.js';
 
 function App() {
@@ -21,7 +22,8 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route exact path="/Portfolio" component={Portfolio} />
           <Route exact path="/About" component={About} />  
-          <Route exact path="/Contact" component={Contact} />  
+          <Route exact path="/Contact" component={Contact} /> 
+          <Route exact path="/Data1" component={Data1} />  
       </Wrapper>
       </Router>
 
