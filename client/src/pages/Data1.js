@@ -1,6 +1,11 @@
-import React from "react";
+import React, {useState} from "react";
+import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Data1Pic from '../assets/img/homepage/1.png'
+
+const scrollToTop = () => {
+   window.scrollTo(0, 0)
+}
 
 function Data1() {
   return (
@@ -8,7 +13,11 @@ function Data1() {
        <Navbar/>
 
       <div className="project-title">
-         <h1>project title</h1>
+         <h1>State of Michigan Vaccination Site Data and Automation</h1>
+
+      <p className="project-disclaimer">
+       All files and sensitive data has been recreated for visual purposes only and contains fictitious data only Per Honu Management policy
+      </p>
       </div>
 
       <div className="project-pic-container">
@@ -19,8 +28,32 @@ function Data1() {
 
       <div className="project-description">
          <p>
-            Major project description paragraph area fill in lots of details hear more and more words
+            This project referred to internally as the "Data Model" allows Honu team members running vaccination and testing sites across the state of Michigan to visualize vaccine vials used across the state.
          </p>
+      </div>
+
+      <p className="project-description">
+         The "Data Model" Help to identify patterns and trends and better utilize limited inventory for sites that had larger turnouts across the state
+      </p>
+
+      <p className="project-description">
+        The data model was also able to reduce the amount of time to staff members had to manually write out multiple forms required for daily vaccination transportation
+      </p>
+
+      <div className="project-pic-container">
+         <img className="data1-pic"
+         src={Data1Pic} 
+         alt="Data1"/>
+      </div>
+
+      <div className="project-pic-container">
+         <img className="data1-pic"
+         src={Data1Pic} 
+         alt="Data1"/>
+      </div>
+
+      <div className="center">
+         <button className="back-portfolio-btn" onClick={scrollToTop}><Link to="./Portfolio">back to portfolio</Link></button>
       </div>
 
       <div className="email">

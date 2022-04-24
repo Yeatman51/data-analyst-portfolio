@@ -11,10 +11,10 @@ function Portfolio() {
       {
         key: 1,
         dataPage: "./Data1",
-        title:"Data 1",
+        title:"Site Data and Automation",
         imgSrc:"/JonYeatmanPortfolioTimeline.png",
         alt:"pic",
-        description:"This business focused application allows project managers to quickly enter Show room measurements and convert them into necessary panels for production",
+        description:"o",
       },
       // {
       //   key: 2,
@@ -170,7 +170,7 @@ function Portfolio() {
    <div>
    <Navbar/>
 
-   {/* <div className="data-text-container">
+   <div className="data-text-container">
       <h2 className="data-text-header">data analyst</h2>
 
       <p className="data-text-paragraph">
@@ -191,7 +191,7 @@ function Portfolio() {
         description={data1.description}
       /> 
     ))}
-    </div> */}
+    </div>
       
       <div className="developer-text-container">
         <h2 className="developer-text-header">developer</h2>
