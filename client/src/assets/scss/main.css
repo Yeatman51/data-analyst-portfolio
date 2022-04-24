@@ -1,3 +1,11 @@
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
 .container,
 .container-sm,
 .container-xs {
@@ -32,6 +40,14 @@
 
 body {
   font-family: "Source Sans Pro", Helvetica, Verdana, sans-serif;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
 }
 
 .header-background {
@@ -142,6 +158,10 @@ footer {
   background: rgba(12, 12, 12, 0.404);
 }
 
+.foot-wrapper .icon-button:nth-child(4):hover .icon {
+  background: rgba(12, 12, 12, 0.404);
+}
+
 .foot-wrapper .icon-button .icon i {
   font-size: 3.5vw;
   line-height: 6vw;
@@ -168,6 +188,15 @@ footer {
   text-decoration: none;
 }
 
+.tableau-icon {
+  font-size: 3.5vw;
+  line-height: 6vw;
+  width: 3.5vw;
+  margin: 1vw auto 0 auto;
+  color: #fff;
+  transition: all 0.3s ease-out;
+}
+
 @media screen and (max-width: 856px) {
   .foot-wrapper .icon-button {
     height: 15vw;
@@ -187,6 +216,14 @@ footer {
   }
   .foot-wrapper .icon-button span {
     display: none;
+    transition: none;
+  }
+
+  .tableau-icon {
+    height: 9vw;
+    width: 9vw;
+    margin: 2vw auto 0 auto;
+    line-height: 15vw;
     transition: none;
   }
 }
@@ -861,6 +898,9 @@ label {
   margin-top: 50px;
   margin-bottom: 50px;
   overflow: hidden;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .portfolio-container-row-1 {
@@ -1046,19 +1086,32 @@ label {
   }
 }
 .project-title {
-  font-size: 6.5vw;
+  font-size: 4.5vw;
+  text-align: center;
 }
 
 .project-pic-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 60px;
+  margin: 5vw 0 0 0;
 }
 
 .data1-pic {
-  width: 215px;
+  width: 85vw;
   box-shadow: 5px 5px 10px rgb(37, 37, 37);
+}
+
+.project-disclaimer {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  margin: 2.5vw 0 0 0;
+  padding: 0 1vw 0 1vw;
+  font-size: 1.5vw;
 }
 
 .project-description {
@@ -1073,10 +1126,54 @@ label {
   font-size: 3vw;
 }
 
+.back-portfolio-btn {
+  font-family: Norwester;
+  background-color: rgba(255, 255, 255, 0.15);
+  color: white;
+  border: 3px solid #CF5609;
+  border-radius: 1rem;
+  margin: 4vw 0 0 0;
+  padding: 1.3vw;
+}
+.back-portfolio-btn a {
+  text-decoration: none;
+  color: white;
+  font-size: 5vw;
+}
+
 @media screen and (max-width: 856px) {
-  /* about pg */
-  .about-text {
-    font-size: 6.5vw;
-    padding: 0 2vw 0 2vw;
+  .project-title {
+    font-size: 4.5vw;
+  }
+
+  .project-pic-container {
+    margin-top: 5vw;
+  }
+
+  .data1-pic {
+    width: 85vw;
+    box-shadow: 5px 5px 10px rgb(37, 37, 37);
+  }
+
+  .project-disclaimer {
+    margin: 2vw 0 0 0;
+    padding: 0 1vw 0 1vw;
+    font-size: 3.5vw;
+  }
+
+  .project-description {
+    margin: 2.5vw 0 0 0;
+    padding: 0 1vw 0 1vw;
+    font-size: 4vw;
+  }
+
+  .back-portfolio-btn {
+    margin: 6vw 0 0 0;
+    border: 3px solid #CF5609;
+    border-radius: 0.5rem;
+    padding: 3vw;
+  }
+  .back-portfolio-btn a {
+    font-size: 6vw;
   }
 }/*# sourceMappingURL=main.css.map */

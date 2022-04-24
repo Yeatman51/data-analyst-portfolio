@@ -1,5 +1,14 @@
 // Widths and spacing
 
+//center
+.center{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   align-content: center;
+}
+
 // Breakpoints
 $breakpoints: (
   small: 480px,

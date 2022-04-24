@@ -1,17 +1,30 @@
 .project-title{
-   font-size: 6.5vw;
+   font-size: 4.5vw;
+   text-align: center;
 }
 
 .project-pic-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 60px;
+  margin: 5vw 0 0 0;
 }
 
 .data1-pic {
-  width: 215px;
+  width: 85vw;
   box-shadow: 5px 5px 10px rgb(37, 37, 37);
+}
+
+.project-disclaimer {
+   display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  margin: 2.5vw 0 0 0;
+  padding: 0 1vw 0 1vw;
+  font-size: 1.5vw;
 }
 
 .project-description {
@@ -24,6 +37,22 @@
   margin: 2.5vw 0 0 0;
   padding: 0 1vw 0 1vw;
   font-size: 3vw;
+}
+
+.back-portfolio-btn{
+   font-family: Norwester;
+   background-color: rgba(255, 255, 255, 0.15);
+   color: white;
+   border: 3px solid $orange;
+   border-radius: 1rem;
+   margin: 4vw 0 0 0;
+   padding: 1.3vw;
+   a {
+      text-decoration: none;
+      color: white;
+      font-size: 5vw;
+      // text-shadow: 0px 0px 8px rgb(114, 111, 111), 0px 0px 25px rgb(114, 111, 111);
+  }
 }
   
 // .email {
@@ -40,10 +69,40 @@
 
 
 @media screen and (max-width: 856px) {
-  /* about pg */
-  .about-text {
-    font-size: 6.5vw;
-    padding: 0 2vw 0 2vw;
-  }
+  
+   .project-title{
+      font-size: 4.5vw;
+   }
+   
+   .project-pic-container {
+     margin-top: 5vw;
+   }
+   
+   .data1-pic {
+     width: 85vw;
+     box-shadow: 5px 5px 10px rgb(37, 37, 37);
+   }
+   
+   .project-disclaimer {
+     margin: 2vw 0 0 0;
+     padding: 0 1vw 0 1vw;
+     font-size: 3.5vw;
+   }
+   
+   .project-description {
+     margin: 2.5vw 0 0 0;
+     padding: 0 1vw 0 1vw;
+     font-size: 4vw;
+   }
+
+   .back-portfolio-btn {
+      margin: 6vw 0 0 0;
+      border: 3px solid $orange;
+      border-radius: .5rem;
+      padding: 3vw;
+      a {
+         font-size: 6vw;
+      }
+   }
 
 }
