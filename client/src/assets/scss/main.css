@@ -1098,7 +1098,7 @@ label {
 }
 
 .data1-pic {
-  width: 85vw;
+  width: 90vw;
   box-shadow: 5px 5px 10px rgb(37, 37, 37);
 }
 
@@ -1110,7 +1110,7 @@ label {
   align-content: center;
   text-align: center;
   margin: 2.5vw 0 0 0;
-  padding: 0 1vw 0 1vw;
+  padding: 0 2vw 0 2vw;
   font-size: 1.5vw;
 }
 
@@ -1151,7 +1151,7 @@ label {
   }
 
   .data1-pic {
-    width: 85vw;
+    width: 91vw;
     box-shadow: 5px 5px 10px rgb(37, 37, 37);
   }
 
@@ -1163,7 +1163,7 @@ label {
 
   .project-description {
     margin: 2.5vw 0 0 0;
-    padding: 0 1vw 0 1vw;
+    padding: 0 2vw 0 2vw;
     font-size: 4vw;
   }
 
