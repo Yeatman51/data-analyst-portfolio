@@ -11,10 +11,10 @@ function Portfolio() {
       {
         key: 1,
         dataPage: "./Data1",
-        title:"Site Data and Automation",
-        imgSrc:"/JonYeatmanPortfolioTimeline.png",
+        title:"Data Automation Dashboard - Health Management",
+        imgSrc:"/images/data-card-img/vaccine-dashboard-cover.png",
         alt:"pic",
-        description:"o",
+        description:"A data-driven automated system designed to showcase the day-to-day operations of coordination for Honu Management - a healthcare management company operating in the state of Michigan."
       },
       // {
       //   key: 2,

@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Data1Pic from '../assets/img/homepage/1.png'
+import Data2Pic from '../assets/img/data-portfolio/vaccine-dashboard.png'
 
 const scrollToTop = () => {
    window.scrollTo(0, 0)
@@ -22,7 +23,7 @@ function Data1() {
 
       <div className="project-pic-container">
          <img className="data1-pic"
-         src={Data1Pic} 
+         src={Data2Pic} 
          alt="Data1"/>
       </div>
 
@@ -33,14 +34,14 @@ function Data1() {
       </div>
 
       <p className="project-description">
-         The "Data Model" Help to identify patterns and trends and better utilize limited inventory for sites that had larger turnouts across the state
+         This "Data Model" helps to identify patterns and trends to better utilize limited inventory for sites that have larger turnouts across the state.
       </p>
 
       <p className="project-description">
-        The data model was also able to reduce the amount of time to staff members had to manually write out multiple forms required for daily vaccination transportation
+        The creation of this data model significantly reduced the amount of time staff members had previously been spending manually writing forms required for daily vaccination transportation.
       </p>
 
-      <div className="project-pic-container">
+      {/* <div className="project-pic-container">
          <img className="data1-pic"
          src={Data1Pic} 
          alt="Data1"/>
@@ -50,7 +51,7 @@ function Data1() {
          <img className="data1-pic"
          src={Data1Pic} 
          alt="Data1"/>
-      </div>
+      </div> */}
 
       <div className="center">
          <button className="back-portfolio-btn" onClick={scrollToTop}><Link to="./Portfolio">back to portfolio</Link></button>
