@@ -89,7 +89,7 @@ function Data1() {
       <div className="project-pic-container">
          <img className="data1-pic"
          src={Data6Pic} 
-         alt="Data1"/>
+         alt="Khatali Report"/>
       </div>
 
       <p className="project-description">
@@ -99,13 +99,13 @@ function Data1() {
       <div className="project-pic-container">
          <img className="data1-pic"
          src={Data7Pic} 
-         alt="Data1"/>
+         alt="Temp Log"/>
       </div>
 
       <div className="project-pic-container">
          <img className="data1-pic"
          src={Data8Pic} 
-         alt="Data1"/>
+         alt="Temp Log back side"/>
       </div>
 
       <div className="center">
