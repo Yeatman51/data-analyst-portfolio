@@ -24,14 +24,14 @@ function Data1() {
          <h1>State of Michigan Vaccination Site Data and Automation</h1>
 
       <p className="project-disclaimer">
-       All files and sensitive data has been recreated for visual purposes only and contains fictitious data Per Honu Management policy
+       All files and sensitive data has been recreated for visual purposes only and contains fictitious data per Honu Management policy
       </p>
       </div>
 
       <div className="project-pic-container">
          <img className="data1-pic"
          src={Data2Pic} 
-         alt="Data1"/>
+         alt="Vaccination Dashboard"/>
       </div>
 
       <p className="project-description">
@@ -49,26 +49,42 @@ function Data1() {
       <div className="project-pic-container">
          <img className="data1-pic"
          src={Data3Pic} 
-         alt="Data1"/>
+         alt="Data Overview"/>
       </div>
+
+      <p className="project-description">
+         Overview of all site data in a standard tabular layout
+      </p>
 
       <div className="project-pic-container">
          <img className="data1-pic"
          src={Data4Pic} 
-         alt="Data1"/>
+         alt="Pivot Table Run Sheet"/>
       </div>
+
+      <p className="project-description">
+         Pivot table design to quickly filter through different dates and operational zones across the state to visualize all critical information for different sites.
+      </p>
 
       <div className="project-pic-container">
          <img className="data1-pic"
          src={DataRunsheet} 
-         alt="Data1"/>
+         alt="Daily Run Sheet"/>
       </div>
+
+      <p className="project-description">
+         The previous pivot table is used to collect today's critical site information and then pasted into a separate sheet that is printed every day in the different distribution centers
+      </p>
 
       <div className="project-pic-container">
          <img className="data1-pic"
          src={Data5Pic} 
          alt="Data1"/>
       </div>
+
+      <p className="project-description">
+         dfghjk
+      </p>
 
       <div className="project-pic-container">
          <img className="data1-pic"
