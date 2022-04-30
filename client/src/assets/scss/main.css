@@ -130,10 +130,6 @@ footer {
   transition: all 0.3s ease-out;
 }
 
-.foot-wrapper .icon-button:hover {
-  width: 20vw;
-}
-
 .foot-wrapper .icon-button .icon {
   display: inline-block;
   color: white;
@@ -146,30 +142,10 @@ footer {
   transition: all 0.3s ease-out;
 }
 
-.foot-wrapper .icon-button:nth-child(1):hover .icon {
-  background: rgba(12, 12, 12, 0.404);
-}
-
-.foot-wrapper .icon-button:nth-child(2):hover .icon {
-  background: rgba(12, 12, 12, 0.404);
-}
-
-.foot-wrapper .icon-button:nth-child(3):hover .icon {
-  background: rgba(12, 12, 12, 0.404);
-}
-
-.foot-wrapper .icon-button:nth-child(4):hover .icon {
-  background: rgba(12, 12, 12, 0.404);
-}
-
 .foot-wrapper .icon-button .icon i {
   font-size: 3.5vw;
   line-height: 6vw;
   transition: all 0.3s ease-out;
-}
-
-.foot-wrapper .icon-button:hover .icon i {
-  color: #fff;
 }
 
 .foot-wrapper .icon-button span {
@@ -197,6 +173,31 @@ footer {
   transition: all 0.3s ease-out;
 }
 
+@media (hover: hover) {
+  .foot-wrapper .icon-button:hover {
+    width: 20vw;
+  }
+
+  .foot-wrapper .icon-button:nth-child(1):hover .icon {
+    background: rgba(12, 12, 12, 0.404);
+  }
+
+  .foot-wrapper .icon-button:nth-child(2):hover .icon {
+    background: rgba(12, 12, 12, 0.404);
+  }
+
+  .foot-wrapper .icon-button:nth-child(3):hover .icon {
+    background: rgba(12, 12, 12, 0.404);
+  }
+
+  .foot-wrapper .icon-button:nth-child(4):hover .icon {
+    background: rgba(12, 12, 12, 0.404);
+  }
+
+  .foot-wrapper .icon-button:hover .icon i {
+    color: #fff;
+  }
+}
 @media screen and (max-width: 856px) {
   .foot-wrapper .icon-button {
     height: 15vw;
@@ -657,7 +658,7 @@ label {
   }
 
   .contact-form-submit {
-    font-family: digital-7;
+    font-family: Norwester;
     border-radius: 1rem;
     font-size: 9.5vw;
     padding: 1.5vw;
@@ -719,6 +720,16 @@ label {
   font-size: 5vw;
 }
 
+@media (hover: hover) {
+  .home-portfolio-btn:hover {
+    border: 3px solid white;
+    color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 20px #CF5609;
+  }
+  .home-portfolio-btn:hover a {
+    color: #CF5609;
+  }
+}
 .dividers-line {
   border-top: 5px solid white;
 }
@@ -1095,12 +1106,14 @@ label {
 }
 
 .data1-pic {
-  width: 90vw;
+  width: 95vw;
   box-shadow: 5px 5px 10px rgb(37, 37, 37);
 }
 
 .project-disclaimer {
   display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
   justify-content: center;
   justify-items: center;
   align-items: center;
@@ -1113,12 +1126,14 @@ label {
 
 .project-description {
   display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
   justify-content: center;
   justify-items: center;
   align-items: center;
   align-content: center;
-  text-align: center;
-  margin: 2.5vw 0 0 0;
+  text-align: justify;
+  margin: 2.5vw 3vw 0 3vw;
   padding: 0 1vw 0 1vw;
   font-size: 3vw;
 }
@@ -1148,7 +1163,7 @@ label {
   }
 
   .data1-pic {
-    width: 91vw;
+    width: 95vw;
     box-shadow: 5px 5px 10px rgb(37, 37, 37);
   }
 
@@ -1159,7 +1174,7 @@ label {
   }
 
   .project-description {
-    margin: 2.5vw 0 0 0;
+    margin: 2.5vw 2vw 0 2vw;
     padding: 0 2vw 0 2vw;
     font-size: 4vw;
   }

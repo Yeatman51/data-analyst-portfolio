@@ -54,6 +54,19 @@
       // text-shadow: 0px 0px 8px rgb(114, 111, 111), 0px 0px 25px rgb(114, 111, 111);
   }
 }
+@media (hover: hover) {
+   .home-portfolio-btn:hover {
+      // background-color: transparent;
+      // color: $orange;
+      border: 3px solid white;
+
+      color: rgba(255, 255, 255, 1);
+      box-shadow: 1px 1px 20px $orange;
+      a {
+         color: $orange
+      }
+   }
+}
 
 .dividers-line {
   border-top: 5px solid white;
@@ -151,6 +164,7 @@
       border: 3px solid $orange;
       border-radius: .5rem;
       padding: 3vw;
+      // transition: all 0.2s ease-in-out;
       a {
          font-size: 9vw;
       }

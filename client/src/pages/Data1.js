@@ -83,7 +83,7 @@ function Data1() {
       </div>
 
       <p className="project-description">
-         dfghjk
+         Both of these pivot tables would be used to extract data for both the adult and PEDS sites. This data was then exported as a CSV files and loaded into a template in design file to automate all of the necessary site documentation
       </p>
 
       <div className="project-pic-container">
@@ -91,6 +91,10 @@ function Data1() {
          src={Data6Pic} 
          alt="Data1"/>
       </div>
+
+      <p className="project-description">
+         
+      </p>
 
       <div className="project-pic-container">
          <img className="data1-pic"

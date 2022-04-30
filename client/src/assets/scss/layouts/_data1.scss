@@ -11,12 +11,14 @@
 }
 
 .data1-pic {
-  width: 90vw;
+  width: 95vw;
   box-shadow: 5px 5px 10px rgb(37, 37, 37);
 }
 
 .project-disclaimer {
-   display: flex;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
   justify-content: center;
   justify-items: center;
   align-items: center;
@@ -29,12 +31,14 @@
 
 .project-description {
   display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
   justify-content: center;
   justify-items: center;
   align-items: center;
   align-content: center;
-  text-align: center;
-  margin: 2.5vw 0 0 0;
+  text-align: justify;
+  margin: 2.5vw 3vw 0 3vw;
   padding: 0 1vw 0 1vw;
   font-size: 3vw;
 }
@@ -79,7 +83,7 @@
    }
    
    .data1-pic {
-     width: 91vw;
+     width: 95vw;
      box-shadow: 5px 5px 10px rgb(37, 37, 37);
    }
    
@@ -90,7 +94,7 @@
    }
    
    .project-description {
-     margin: 2.5vw 0 0 0;
+     margin: 2.5vw 2vw 0 2vw;
      padding: 0 2vw 0 2vw;
      font-size: 4vw;
    }
