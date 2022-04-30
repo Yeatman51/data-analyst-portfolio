@@ -35,7 +35,7 @@
   align-content: center;
   justify-items: center;
   text-align: center;
-  margin: 1vw 0 0vw 0;
+  margin: 1vw 1vw 0vw 1vw;
   padding: 2vw;
   font-size: 2.5vw;
 }
@@ -78,11 +78,14 @@
   margin: 5vw 0 0vw 0;
 }
 
-.code-logos-container {
+.code-logos-container,
+.design-logos-container {
   font-family: Norwester;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-items: center;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 2vw;
 }
 
@@ -91,31 +94,15 @@
   align-items: center;
   text-align: center;
   font-size: 2.5vw;
-  width: 18vw;
 
   img {
     max-width: 100%;
     height: auto;
     min-width: 30px;
   }
-}
-
-.code-logos h3 {
-  margin-top: -2.5vw;
-}
-
-.design-logos {
-  font-family: Norwester;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  justify-items: center;
-  margin-bottom: 2vw;
-
-  img {
-    max-width: 100%;
-    height: auto;
-    min-width: 30px;
-  }
+  h3 {
+   margin-top: -2.5vw;
+ }
 }
 
 .email-home {
@@ -157,15 +144,15 @@
   }
   .about-text-home {
     padding: 0 2vw 5vw 2vw;
-    font-size: 6vw;
-    margin: 3vw 0 0 0;
+    font-size: 5vw;
+    margin: 3vw 1vw 0vw 1vw;
   }
   .home-portfolio-btn {
       border: 3px solid $orange;
       border-radius: .5rem;
       padding: 3vw;
       a {
-         font-size: 10vw;
+         font-size: 9vw;
       }
    }
    .data-text-header-home,
@@ -178,18 +165,24 @@
       margin: 5vw 0 0vw 0;
    }
   .code-logos {
-    width: 100%;
     font-size: 6.5vw;
+  
+    img {
+      height: auto;
+      width: 30vw;
+    }
+    h3 {
+      margin-top: -3.5vw;
+      font-size: 6vw;
+    }
   }
   .icon-header {
     padding: 0 1vw 0 1vw;
     font-size: 6.5vw;
   }
-  .code-logos-container {
+  .code-logos-container,
+  .design-logos-container {
     grid-template-columns: 1fr 1fr; 
-  }
-  .design-logos {
-    grid-template-columns: 1fr 1fr;
   }
   .gsap {
      display: none;

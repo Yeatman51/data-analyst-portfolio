@@ -700,7 +700,7 @@ label {
   align-content: center;
   justify-items: center;
   text-align: center;
-  margin: 1vw 0 0vw 0;
+  margin: 1vw 1vw 0vw 1vw;
   padding: 2vw;
   font-size: 2.5vw;
 }
@@ -742,11 +742,14 @@ label {
   margin: 5vw 0 0vw 0;
 }
 
-.code-logos-container {
+.code-logos-container,
+.design-logos-container {
   font-family: Norwester;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-items: center;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 2vw;
 }
 
@@ -755,29 +758,14 @@ label {
   align-items: center;
   text-align: center;
   font-size: 2.5vw;
-  width: 18vw;
 }
 .code-logos img {
   max-width: 100%;
   height: auto;
   min-width: 30px;
 }
-
 .code-logos h3 {
   margin-top: -2.5vw;
-}
-
-.design-logos {
-  font-family: Norwester;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  justify-items: center;
-  margin-bottom: 2vw;
-}
-.design-logos img {
-  max-width: 100%;
-  height: auto;
-  min-width: 30px;
 }
 
 .email-home {
@@ -821,8 +809,8 @@ label {
 
   .about-text-home {
     padding: 0 2vw 5vw 2vw;
-    font-size: 6vw;
-    margin: 3vw 0 0 0;
+    font-size: 5vw;
+    margin: 3vw 1vw 0vw 1vw;
   }
 
   .home-portfolio-btn {
@@ -831,7 +819,7 @@ label {
     padding: 3vw;
   }
   .home-portfolio-btn a {
-    font-size: 10vw;
+    font-size: 9vw;
   }
 
   .data-text-header-home,
@@ -845,8 +833,15 @@ label {
   }
 
   .code-logos {
-    width: 100%;
     font-size: 6.5vw;
+  }
+  .code-logos img {
+    height: auto;
+    width: 30vw;
+  }
+  .code-logos h3 {
+    margin-top: -3.5vw;
+    font-size: 6vw;
   }
 
   .icon-header {
@@ -854,11 +849,8 @@ label {
     font-size: 6.5vw;
   }
 
-  .code-logos-container {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .design-logos {
+  .code-logos-container,
+.design-logos-container {
     grid-template-columns: 1fr 1fr;
   }
 

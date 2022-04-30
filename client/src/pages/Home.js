@@ -48,9 +48,7 @@ function Home() {
          
          <div className="about-text-home">
             <p>
-                  Experienced Business Owner with a demonstrated history of working in the computer software and graphics industry. 
-                  Skilled in Business Planning, Operations Management, Web Design, HTML, CSS, and JavaScript. Strong operations professional with 
-                  a Certificate focused in Full Stack Web Development from Michigan State University. 
+            Thorough and meticulous Business Analyst/Administrator passionate about helping businesses succeed. Former small business owner and certified full-stack web developer. Organized problem solver with a strong technical aptitude and ability to partner with leadership, sales, marketing, support and other important teams to maximize operations and interactions. Experience with various stages of the Software Development Lifecycle (SDLC) especially design, analysis, deployment and maintenance. 
             </p>
             <button className="home-portfolio-btn" onClick={scrollToTop}><Link to="./Portfolio">portfolio</Link></button>
          </div>
@@ -74,7 +72,7 @@ function Home() {
 
    <div className="dividers-line"></div>
 
-      <div className="design-logos">
+      <div className="design-logos-container">
          <div className="code-logos">
                <img src={excel} alt="excel"/>
                <h3>excel</h3>
@@ -165,7 +163,7 @@ function Home() {
       </div>
    <div className="dividers-line"></div>
 
-        <div className="design-logos">
+        <div className="design-logos-container">
             <div className="code-logos">
                 <img src={fig} alt="Figma Logo"/>
                 <h3>figma</h3>
