@@ -5,6 +5,7 @@ import Data1Pic from '../assets/img/homepage/1.png'
 import Data2Pic from '../assets/img/data-portfolio/vaccine-dashboard.png'
 import Data3Pic from '../assets/img/data-portfolio/site-data.png'
 import Data4Pic from '../assets/img/data-portfolio/pre-runsheet.png'
+import DataRunsheet from '../assets/img/data-portfolio/runsheet.png'
 import Data5Pic from '../assets/img/data-portfolio/per-site-paperwork.png'
 import Data6Pic from '../assets/img/data-portfolio/khatali.png'
 import Data7Pic from '../assets/img/data-portfolio/YCLS-page-1.png'
@@ -23,7 +24,7 @@ function Data1() {
          <h1>State of Michigan Vaccination Site Data and Automation</h1>
 
       <p className="project-disclaimer">
-       All files and sensitive data has been recreated for visual purposes only and contains fictitious data only Per Honu Management policy
+       All files and sensitive data has been recreated for visual purposes only and contains fictitious data Per Honu Management policy
       </p>
       </div>
 
@@ -54,6 +55,12 @@ function Data1() {
       <div className="project-pic-container">
          <img className="data1-pic"
          src={Data4Pic} 
+         alt="Data1"/>
+      </div>
+
+      <div className="project-pic-container">
+         <img className="data1-pic"
+         src={DataRunsheet} 
          alt="Data1"/>
       </div>
 
