@@ -8,10 +8,10 @@ const scrollToTop = () => {
 function Datacard(props) {
   return (
    
-      <div className="dev-info">
+      <div className="datacard-info">
          <Link to={props.dataPage} onClick={scrollToTop}>
          <h1>{props.title}</h1>
-         <img className="dev-pic"
+         <img className="datacard-pic"
          src={process.env.PUBLIC_URL + props.imgSrc} 
          alt={props.alt}
          />

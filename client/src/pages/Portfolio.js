@@ -10,25 +10,25 @@ function Portfolio() {
    const dataRow1 = [
       {
         key: 1,
-        dataPage: "./Data1",
+        dataPage: "./DataAutomation",
         title:"Data Automation Dashboard - Health Management",
         imgSrc:"/images/data-card-img/vaccine-dashboard-cover.png",
-        alt:"pic",
+        alt:"Automation Dashboard",
         description:"A data-driven automated system designed to showcase the day-to-day operations of coordination for Honu Management - a healthcare management company operating in the state of Michigan."
       },
-      // {
-      //   key: 2,
-      //   dataPage: "./Data1",
-      //   title:"Data 2",
-      //   imgSrc:"/images/dev-card-img/wall-pro.png",
-      //   alt:"pic",
-      //   description:"Treat YO Shelf is a user-friendly app that lets you organize your books and and future reading lists",
-      // },
+      {
+         key: 2,
+         dataPage: "./DataSiteIssues",
+         title:"Site Issues Dashboard",
+         imgSrc:"/images/data-card-img/SiteIssuesDashboardCover.png",
+         alt:"Site Issues Dashboard",
+         description:"A data-driven automated system designed to showcase the day-to-day operations of coordination for Honu Management - a healthcare management company operating in the state of Michigan."
+     },
       // {
       //   key: 3,
       //   dataPage: "./Data1",
       //   title:"Data 3",
-      //   imgSrc:"/images/dev-card-img/wall-pro.png",
+      //   imgSrc:"/images/data-card-img/vaccine-dashboard-cover.png",
       //   alt:"pic",
       //   description:"DINGEN is a food app design to take the struggle of preparing tonight's dinner",
       // }

@@ -470,7 +470,13 @@ footer {
 
 .dev-info h1 {
   margin-top: 10px;
-  font-size: 30px;
+  font-size: 2.5vw;
+  text-align: center;
+}
+
+.dev-info p {
+  margin-top: 10px;
+  font-size: 1.5vw;
   text-align: center;
 }
 
@@ -481,7 +487,7 @@ footer {
 }
 
 .dev-info i {
-  font-size: 35px;
+  font-size: 2vw;
   margin-top: 10px;
   flex-direction: row;
 }
@@ -517,6 +523,76 @@ footer {
     overflow: hidden;
     width: 85%;
     height: 85%;
+  }
+
+  .dev-info h1 {
+    margin-top: 10px;
+    font-size: 6.5vw;
+  }
+
+  .dev-info p {
+    margin-top: 10px;
+    font-size: 3.5vw;
+  }
+
+  .dev-info i {
+    font-size: 6vw;
+    margin-top: 10px;
+  }
+}
+.datacard-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(12, 12, 12, 0.404);
+  font-family: Norwester;
+  border-radius: 25px;
+  color: white;
+  margin: 1vw;
+  padding: 1vw;
+  width: 100%;
+  height: 55vw;
+}
+.datacard-info h1 {
+  margin-top: 1vw;
+  font-size: 2.5vw;
+  text-align: center;
+}
+.datacard-info p {
+  margin-top: 1vw;
+  font-size: 1.5vw;
+  text-align: center;
+}
+.datacard-info a {
+  text-decoration: none;
+  color: white;
+}
+
+.datacard-pic {
+  width: 95%;
+  border: 3px solid #CF5609;
+  border-radius: 1em;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 856px) {
+  .datacard-info {
+    border-radius: 25px;
+    margin: 2vw;
+    padding: 4vw;
+    width: 85%;
+    height: 100%;
+  }
+  .datacard-info h1 {
+    margin-top: 10px;
+    font-size: 6.5vw;
+  }
+  .datacard-info p {
+    margin-top: 10px;
+    font-size: 3.5vw;
   }
 }
 .contact-form-container {
