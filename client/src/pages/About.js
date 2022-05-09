@@ -15,15 +15,15 @@ function About() {
 
         <div className="about-text">
             <p>
-                I thrive best in an environment that sparks both a challenge and creativity.
+                I thrive best in an environment that sparks both a challenge and creativity. Constantly in search of ways to improve business processes and tend to be an out-of-the-box thinker. Looking for the next step in my career to grow in the business and analytics space. 
                 <br/>
                 <br/>
-                With a keen sense to detail, I bring a unique perspective to projects by thinking outside-the-box. 
-                Throughout the process of every project, I take pride in my ability and commitment to provide the 
-                best possible outcome for my clients
+                I am an avid outdoorsman; hiking, biking, and camping with my 12-year-old retriever. Enjoy being challenged to learn new things personally and always looking for the next best YouTube channel or podcast. As a dedicated and loyal college football fan, I have a goal of attending a game in every major stadium.
+
+
                 <br/>
                 <br/>
-                My commitment towards excellence will not be satisfied until the job is complete.
+                Strengths: Leadership, Project Management, Training and Instructing, Out-of-the-Box Thinking, Business Strategy, Attention to Detail, Efficiency 
             </p>
         </div>
 

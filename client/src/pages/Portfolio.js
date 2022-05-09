@@ -22,7 +22,7 @@ function Portfolio() {
          title:"Site Issues Dashboard",
          imgSrc:"/images/data-card-img/SiteIssuesDashboardCover.png",
          alt:"Site Issues Dashboard",
-         description:"A data-driven automated system designed to showcase the day-to-day operations of coordination for Honu Management - a healthcare management company operating in the state of Michigan."
+         description:"A reporting dashboard that displays the month-over-month performance for site-issues occuring throughout the state of Michigan for Honu Management and third-party partners."
      },
       // {
       //   key: 3,
