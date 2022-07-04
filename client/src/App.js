@@ -11,6 +11,7 @@ import About from './pages/About.js';
 import Contact from './pages/Contact.js';
 import DataAutomation from './pages/DataAutomation';
 import DataSiteIssues from './pages/DataSiteIssues';
+import DDLautomation from './pages/DDLautomation';
 import Footer from './components/Footer.js';
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
           <Route exact path="/Contact" component={Contact} /> 
           <Route exact path="/DataAutomation" component={DataAutomation} />  
           <Route exact path="/DataSiteIssues" component={DataSiteIssues} />  
+          <Route exact path="/DDLautomation" component={DDLautomation} /> 
       </Wrapper>
       </Router>
 

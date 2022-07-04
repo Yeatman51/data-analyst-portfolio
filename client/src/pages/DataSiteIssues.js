@@ -11,7 +11,7 @@ const scrollToTop = () => {
    window.scrollTo(0, 0)
 }
 
-function Data1() {
+function Data2() {
   return (
     <div>
        <Navbar/>
@@ -89,4 +89,4 @@ function Data1() {
   );
 }
 
-export default Data1;
+export default Data2;

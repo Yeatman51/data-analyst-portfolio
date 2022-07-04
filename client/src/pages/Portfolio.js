@@ -11,27 +11,27 @@ function Portfolio() {
       {
         key: 1,
         dataPage: "./DataAutomation",
-        title:"Data Automation Dashboard - Health Management",
+        title:"data automation dashboard - health management",
         imgSrc:"/images/data-card-img/vaccine-dashboard-cover.png",
         alt:"Automation Dashboard",
-        description:"A data-driven automated system designed to showcase the day-to-day operations of coordination for Honu Management - a healthcare management company operating in the state of Michigan."
+        description:"A data-driven automated system designed to showcase the day-to-day operations of coordination for Honu Management - a healthcare management company."
       },
       {
          key: 2,
          dataPage: "./DataSiteIssues",
-         title:"Site Issues Dashboard",
+         title:"site issues dashboard",
          imgSrc:"/images/data-card-img/SiteIssuesDashboardCover.png",
          alt:"Site Issues Dashboard",
          description:"A reporting dashboard that displays the month-over-month performance for site-issues occuring throughout the state of Michigan for Honu Management and third-party partners."
      },
-      // {
-      //   key: 3,
-      //   dataPage: "./Data1",
-      //   title:"Data 3",
-      //   imgSrc:"/images/data-card-img/vaccine-dashboard-cover.png",
-      //   alt:"pic",
-      //   description:"DINGEN is a food app design to take the struggle of preparing tonight's dinner",
-      // }
+      {
+        key: 3,
+        dataPage: "./DDLautomation",
+        title:"daily ddl download automation",
+        imgSrc:"/images/data-card-img/DDL-automation-cover.png",
+        alt:"DDL Automation Cover",
+        description:"Utilizing a python program to automate the time consuming actions of downloading operational data daily",
+      }
     ]
   
    const cardsRow1 = [
