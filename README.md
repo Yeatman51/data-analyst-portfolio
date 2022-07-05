@@ -1,7 +1,7 @@
 
 ## Jon Yeatman's Portfolio
 
-<p align="center"><img src="client/public/JonYeatmanPortfolioTimeline.png" alt="Yeatman Header Photo" align="center"></p><br>
+<p align="center"><img src="client/public/images/JonYeatmanPortfolioTimeline.png" alt="Yeatman Header Photo" align="center"></p><br>
 
 ## Links:
 

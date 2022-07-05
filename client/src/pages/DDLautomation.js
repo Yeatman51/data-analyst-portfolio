@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
-import video from '../assets/zone_1_ddl.mp4'
+import video from '../assets/ddl_download_automation.mp4'
 
 import DDL1 from '../assets/img/data-portfolio/DDL_01.png'
 import DDL2 from '../assets/img/data-portfolio/DDL_02.png'

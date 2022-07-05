@@ -1,4 +1,5 @@
 import React from "react";
+// import tableau from '../assets/img/icons/data-icon/tableau.svg'
 
 function Footer() {
   return (
@@ -16,6 +17,17 @@ function Footer() {
                     <span className="icon-span">Github</span></a>
                 
            </div>
+
+           {/* <div className="icon-button">
+                <div className="icon">
+                    <a alt="tableau" className="icon-anchor" href="https://public.tableau.com/app/profile/jon.yeatman" target="_blank" rel="noreferrer">
+                    <img className="tableau-icon" src="/images/tableau.svg"></img></a>
+                </div>
+            
+                    <a alt="tableau" className="icon-anchor" href="https://" target="_blank" rel="noreferrer">
+                    <span className="icon-span">Tableau</span></a>
+                
+           </div> */}
 
             <div className="icon-button">
                 <div className="icon">
