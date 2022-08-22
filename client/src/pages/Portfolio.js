@@ -193,7 +193,7 @@ function Portfolio() {
     ))}
     </div>
       
-      <div className="developer-text-container">
+      {/* <div className="developer-text-container">
         <h2 className="developer-text-header">developer</h2>
 
         <p className="developer-text-paragraph">
@@ -215,7 +215,7 @@ function Portfolio() {
         www={card1.www}
       /> 
     ))}
-    </div>
+    </div> */}
 
     {/* <div className="portfolio-container-row-2">
     {cardsRow2.map(card2 => (
