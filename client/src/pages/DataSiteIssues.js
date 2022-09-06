@@ -31,7 +31,7 @@ function Data2() {
       </div>
 
       <p className="project-description">
-         On a monthly cadence, the above Dashboard was shared with executive management and third-party partners to showcase the overall issues occuring throughout the month at sites across the state of Michigan. 
+         On a monthly cadence, the above Dashboard was shared with executive management and third-party partners to showcase the overall issues occurring throughout the month at sites across the state of Michigan. 
       </p>
 
       <p className="project-description">
