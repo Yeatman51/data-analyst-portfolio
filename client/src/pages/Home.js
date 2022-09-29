@@ -157,7 +157,7 @@ function Home() {
          
          <div className="about-text-home">
             <p>
-            Thorough and meticulous Business Analyst/Administrator passionate about helping businesses succeed. Former small business owner and certified Data Analyst. Organized problem solver with a strong technical aptitude and ability to partner with leadership, sales, marketing, support, and other important teams to maximize operations and interactions. Experience with various stages of the Software Development Lifecycle (SDLC) especially design, analysis, deployment, and maintenance. 
+            Thorough and meticulous Business Analyst/Administrator passionate about helping businesses succeed. A former small business owner who has completed certificate programs focused on Data Analytics and Web Development. Organized problem solver with a strong technical aptitude and ability to partner with leadership, sales, marketing, support, and other important teams to maximize operations and interactions. Experience with various stages of the Software Development Lifecycle (SDLC) especially design, analysis, deployment, and maintenance.
             </p>
             <button className="home-portfolio-btn" ref={probtn} onClick={scrollToTop}><Link to="./Portfolio">portfolio</Link></button>
          </div>
