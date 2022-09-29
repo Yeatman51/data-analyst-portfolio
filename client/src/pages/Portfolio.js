@@ -34,34 +34,23 @@ function Portfolio() {
       }
     ]
   
-   const cardsRow1 = [
-    {
-      key: 1,
-      title:"Wall Pro",
-      imgSrc:"/images/dev-card-img/wall-pro.png",
-      alt:"pic",
-      description:"This business focused application allows project managers to quickly enter Show room measurements and convert them into necessary panels for production",
-      github:"https://github.com/mbussert/shaw-ppc",
-      www:"http://www.WallPro.net",
-    },
-    {
-      key: 2,
-      title:"Treat YO Shelf",
-      imgSrc:"/images/dev-card-img/treat-search.png",
-      alt:"pic",
-      description:"Treat YO Shelf is a user-friendly app that lets you organize your books and and future reading lists",
-      github:"https://github.com/hstor3/treat-yo-shelf",
-      www:"https://treatyourshelf.herokuapp.com/",
-    },
-    {
-      key: 3,
-      title:"DINGEN",
-      imgSrc:"/images/dev-card-img/dingen-home.png",
-      alt:"pic",
-      description:"DINGEN is a food app design to take the struggle of preparing tonight's dinner",
-      github:"https://github.com/Yeatman51/DinGen-Web",
-      www:"https://yeatman51.github.io/DinGen-Web/",
-    }
+   const webRow1 = [
+      {
+         key: 1,
+         webPage: "./WallPro",
+         title:"wall pro",
+         imgSrc:"/images/data-card-img/vaccine-dashboard-cover.png",
+         alt:"Automation Dashboard",
+         description:"A data-driven automated system designed to showcase the day-to-day operations of coordination for Honu Management - a healthcare management company."
+       },
+       {
+          key: 2,
+          webPage: "./HonuForms",
+          title:"honu data forms",
+          imgSrc:"/images/data-card-img/SiteIssuesDashboardCover.png",
+          alt:"Site Issues Dashboard",
+          description:"A reporting dashboard that displays the month-over-month performance for site-issues occuring throughout the state of Michigan for Honu Management and third-party partners."
+      }
   ]
   
   const cardsRow2 = [
@@ -193,8 +182,8 @@ function Portfolio() {
     ))}
     </div>
       
-      {/* <div className="developer-text-container">
-        <h2 className="developer-text-header">developer</h2>
+      <div className="developer-text-container">
+        <h2 className="developer-text-header">web developer</h2>
 
         <p className="developer-text-paragraph">
 
@@ -204,18 +193,17 @@ function Portfolio() {
 <div className="dividers-line"></div>
 
     <div className="portfolio-container-row-1">
-    {cardsRow1.map(card1 => (
+    {webRow1.map(web1 => (
       <Devcard 
-        key={card1.key}
-        title={card1.title}
-        imgSrc={card1.imgSrc}
-        alt={card1.alt}
-        description={card1.description}
-        github={card1.github}
-        www={card1.www}
+         key={web1.key}
+         webPage={web1.webPage}
+         title={web1.title}
+         imgSrc={web1.imgSrc}
+         alt={web1.alt}
+         description={web1.description}
       /> 
     ))}
-    </div> */}
+    </div>
 
     {/* <div className="portfolio-container-row-2">
     {cardsRow2.map(card2 => (
