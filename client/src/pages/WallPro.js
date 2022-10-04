@@ -4,9 +4,10 @@ import Navbar from "../components/Navbar";
 
 import video from '../assets/ddl_download_automation.mp4'
 
-import DDL1 from '../assets/img/web-portfolio/wall-pro-header-logo.png'
-import DDL2 from '../assets/img/web-portfolio/wall-pro-logo.png'
-import DDL3 from '../assets/img/web-portfolio/wall-pro-header-logo.png'
+import wp1 from '../assets/img/web-portfolio/wall-pro-header-logo.png'
+import wp2 from '../assets/img/web-portfolio/wall-pro-home.png'
+import wp3 from '../assets/img/web-portfolio/wall-pro-logo.png'
+
 
 
 
@@ -26,7 +27,7 @@ function Data3() {
 
       <div className="project-pic-container">
          <img className="data1-pic"
-         src={DDL1} 
+         src={wp1} 
          alt="Wall Pro Logo"/>
       </div>
 
@@ -52,7 +53,13 @@ function Data3() {
 
       <div className="project-pic-container">
          <img className="data1-pic"
-         src={DDL2} 
+         src={wp2} 
+         alt="export process"/>
+      </div>
+
+      <div className="project-pic-container">
+         <img className="data1-pic"
+         src={wp3} 
          alt="export process"/>
       </div>
 

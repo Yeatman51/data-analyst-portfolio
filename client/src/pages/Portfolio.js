@@ -39,7 +39,7 @@ function Portfolio() {
          key: 1,
          webPage: "./WallPro",
          title:"wall pro",
-         imgSrc:"/images/data-card-img/vaccine-dashboard-cover.png",
+         imgSrc:"/images/dev-card-img/wall-pro-cover.png",
          alt:"Automation Dashboard",
          description:"A data-driven automated system designed to showcase the day-to-day operations of coordination for Honu Management - a healthcare management company."
        },
@@ -47,7 +47,7 @@ function Portfolio() {
           key: 2,
           webPage: "./HonuForms",
           title:"honu data forms",
-          imgSrc:"/images/data-card-img/SiteIssuesDashboardCover.png",
+          imgSrc:"/images/dev-card-img/honu-forms-cover.png",
           alt:"Site Issues Dashboard",
           description:"A reporting dashboard that displays the month-over-month performance for site-issues occuring throughout the state of Michigan for Honu Management and third-party partners."
       }
