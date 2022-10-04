@@ -1,11 +1,13 @@
 import React, {useState} from "react";
 import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
+
 import video from '../assets/ddl_download_automation.mp4'
 
-import DDL1 from '../assets/img/data-portfolio/DDL_01.png'
-import DDL2 from '../assets/img/data-portfolio/DDL_02.png'
-import DDL3 from '../assets/img/data-portfolio/DDL_03.png'
+import DDL1 from '../assets/img/web-portfolio/wall-pro-header-logo.png'
+import DDL2 from '../assets/img/web-portfolio/wall-pro-logo.png'
+import DDL3 from '../assets/img/web-portfolio/wall-pro-header-logo.png'
+
 
 
 const scrollToTop = () => {
@@ -22,8 +24,14 @@ function Data3() {
 
       </div>
 
+      <div className="project-pic-container">
+         <img className="data1-pic"
+         src={DDL1} 
+         alt="Wall Pro Logo"/>
+      </div>
+
       <p className="project-description">
-         This project utilizes the automation power of Python running inside of Jupiter Notebook. This allows users to easily update the preferred download date variable and run the file with ease. 
+      The application will assist clients in calculating square footage measurements for wall installation material deliverables on behalf of the design company. The average user will be able to utilize the calculator tool to place product orders, save their account info to view order history, and notify the administration team of their new orders.
 
       </p>
 
@@ -41,15 +49,6 @@ function Data3() {
       After the user inputs the desired date the user will then run the file. The program will then automatically log into the online data portal. All passwords and usernames have been secured with a local .ENV file. 
       </p>
 
-      <div className="project-pic-container">
-         <img className="data1-pic"
-         src={DDL1} 
-         alt="filtering parameters"/>
-      </div>
-
-      <p className="project-description">
-      After logging in the program will automatically fill all filtering parameters to select the exact data set required.
-      </p>
 
       <div className="project-pic-container">
          <img className="data1-pic"
@@ -57,23 +56,6 @@ function Data3() {
          alt="export process"/>
       </div>
 
-      <p className="project-description">
-         After the correct parameters have been selected the program will wait and allow the graph data to fill before beginning the export process
-      </p>
-
-      <div className="project-pic-container">
-         <img className="data1-pic"
-         src={DDL3} 
-         alt="run report"/>
-      </div>
-
-      <p className="project-description">
-         In this final step the program will now automatically run the report triggering a download of the data. 
-      </p>
-
-      <p className="project-description">
-        After completing the download the program will then repeat the necessary steps depending on the number of data sets assigned to each distribution center.
-      </p>
 
       <div className="github-icon-container">
          <div className="github-large-icon"> 

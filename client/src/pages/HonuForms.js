@@ -1,11 +1,13 @@
 import React, {useState} from "react";
 import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
+
 import video from '../assets/ddl_download_automation.mp4'
 
-import DDL1 from '../assets/img/data-portfolio/DDL_01.png'
-import DDL2 from '../assets/img/data-portfolio/DDL_02.png'
-import DDL3 from '../assets/img/data-portfolio/DDL_03.png'
+import DDL1 from '../assets/img/web-portfolio/honu-1.png'
+import DDL2 from '../assets/img/web-portfolio/honu-2.png'
+import DDL3 from '../assets/img/web-portfolio/honu-3.png'
+import DDL4 from '../assets/img/web-portfolio/honu-4.png'
 
 
 const scrollToTop = () => {
@@ -72,6 +74,12 @@ function Data3() {
       <p className="project-description">
          In this final step the program will now automatically run the report triggering a download of the data. 
       </p>
+
+      <div className="project-pic-container">
+         <img className="data1-pic"
+         src={DDL4} 
+         alt="run report"/>
+      </div>
 
     
 
