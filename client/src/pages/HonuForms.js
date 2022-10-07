@@ -57,7 +57,7 @@ function Data3() {
 
       <div className="project-pic-container">
          <img className="data1-pic"
-         src={DDL2} 
+         src={DDL3} 
          alt="export process"/>
       </div>
 
@@ -67,7 +67,7 @@ function Data3() {
 
       <div className="project-pic-container">
          <img className="data1-pic"
-         src={DDL3} 
+         src={DDL2} 
          alt="run report"/>
       </div>
 

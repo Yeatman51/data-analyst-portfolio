@@ -41,7 +41,7 @@ function Portfolio() {
          title:"wall pro",
          imgSrc:"/images/dev-card-img/wall-pro-cover.png",
          alt:"Automation Dashboard",
-         description:"A data-driven automated system designed to showcase the day-to-day operations of coordination for Honu Management - a healthcare management company."
+         description:"A production and client management application. Wallpro allows on site contractors to input sectional data that is then converted to panel measurements for production orders"
        },
        {
           key: 2,
