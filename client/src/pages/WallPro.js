@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 
-import video from '../assets/ddl_download_automation.mp4'
+import video from '../assets/wallpro-overview.mp4'
 
 import wp1 from '../assets/img/web-portfolio/wall-pro-header-logo.png'
 import wp2 from '../assets/img/web-portfolio/wall-pro-home.png'
@@ -32,7 +32,7 @@ function Data3() {
       </div>
 
       <p className="project-description">
-      The application will assist clients in calculating square footage measurements for wall installation material deliverables on behalf of the design company. The average user will be able to utilize the calculator tool to place product orders, save their account info to view order history, and notify the administration team of their new orders.
+      The application will assist clients in calculating square footage measurements for wall installation material deliverables on behalf of the design company. The user will be able to utilize the calculator tool to place product orders, save their account info to view order history, and notify the administration team of their new orders.
 
       </p>
 
@@ -42,13 +42,13 @@ function Data3() {
          </video>
       </div>
 
-      <p className="project-description">
+      {/* <p className="project-description">
         On a daily basis management teams across different distribution centers would utilize a local file similar to this to automatically download the required DDL data for analysis and documentation.
       </p>
 
       <p className="project-description">
       After the user inputs the desired date the user will then run the file. The program will then automatically log into the online data portal. All passwords and usernames have been secured with a local .ENV file. 
-      </p>
+      </p> */}
 
 
       <div className="project-pic-container">

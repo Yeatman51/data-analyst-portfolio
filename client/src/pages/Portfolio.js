@@ -49,7 +49,7 @@ function Portfolio() {
           title:"honu data forms",
           imgSrc:"/images/dev-card-img/honu-forms-cover.png",
           alt:"Site Issues Dashboard",
-          description:"A reporting dashboard that displays the month-over-month performance for site-issues occuring throughout the state of Michigan for Honu Management and third-party partners."
+          description:"A Business intelligence application built to on site staff to enter essential data and submit daily operating forms."
       }
   ]
   

@@ -24,16 +24,16 @@ function Data3() {
 
       </div>
 
-      <p className="project-description">
+      {/* <p className="project-description">
          This project utilizes the automation power of Python running inside of Jupiter Notebook. This allows users to easily update the preferred download date variable and run the file with ease. 
 
-      </p>
+      </p> */}
 
-      <div className="project-pic-container">
+      {/* <div className="project-pic-container">
          <video className="data1-pic" controls >
             <source src={video} type="video/mp4"/>
          </video>
-      </div>
+      </div> */}
 
       <p className="project-description">
       Custom forms were built in the following categories to keep all operational data clear and concise: 
@@ -51,9 +51,9 @@ function Data3() {
          alt="filtering parameters"/>
       </div>
 
-      <p className="project-description">
+      {/* <p className="project-description">
       After logging in the program will automatically fill all filtering parameters to select the exact data set required.
-      </p>
+      </p> */}
 
       <div className="project-pic-container">
          <img className="data1-pic"
@@ -61,9 +61,9 @@ function Data3() {
          alt="export process"/>
       </div>
 
-      <p className="project-description">
+      {/* <p className="project-description">
          After the correct parameters have been selected the program will wait and allow the graph data to fill before beginning the export process
-      </p>
+      </p> */}
 
       <div className="project-pic-container">
          <img className="data1-pic"
@@ -71,9 +71,9 @@ function Data3() {
          alt="run report"/>
       </div>
 
-      <p className="project-description">
+      {/* <p className="project-description">
          In this final step the program will now automatically run the report triggering a download of the data. 
-      </p>
+      </p> */}
 
       <div className="project-pic-container">
          <img className="data1-pic"
