@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 
-import video from '../assets/ddl_download_automation.mp4'
+import video from '../assets/honu-forms-overview.mp4'
 
 import DDL1 from '../assets/img/web-portfolio/honu-1.png'
 import DDL2 from '../assets/img/web-portfolio/honu-2.png'
@@ -29,18 +29,29 @@ function Data3() {
 
       </p> */}
 
-      {/* <div className="project-pic-container">
+      <div className="project-pic-container">
          <video className="data1-pic" controls >
             <source src={video} type="video/mp4"/>
          </video>
-      </div> */}
+      </div>
 
       <p className="project-description">
       Custom forms were built in the following categories to keep all operational data clear and concise: 
       </p>
 
-      <p className="project-description">
-        Beginning of shift, end of shift, staff on site, incident reports, supply request, current inventory, wasted test kits, shipping confirmation, mileage reimbursement, processing request, warehouse inventory, and task management
+      <p className="project-description-list">
+         <li>Beginning of shift</li>
+         <li>Staff on Site</li>
+         <li>End of Shift</li>
+         <li>Incident Reports</li>
+         <li>Supply Request</li>
+         <li>Current Inventory</li>
+         <li>Wasted Test Kits</li>
+         <li>Shipping Confirmation</li>
+         <li>Mileage Reimbursement</li>
+         <li>Processing Request</li>
+         <li>Warehouse Inventory</li>
+         <li>Task Management</li>
       </p>
 
      

@@ -80,11 +80,9 @@ body {
   .header-background {
     min-height: 55vw;
   }
-
   .header-title {
     font-size: 10vw;
   }
-
   .header-paragraph {
     font-size: 4vw;
   }
@@ -177,23 +175,18 @@ footer {
   .foot-wrapper .icon-button:hover {
     width: 20vw;
   }
-
   .foot-wrapper .icon-button:nth-child(1):hover .icon {
     background: rgba(12, 12, 12, 0.404);
   }
-
   .foot-wrapper .icon-button:nth-child(2):hover .icon {
     background: rgba(12, 12, 12, 0.404);
   }
-
   .foot-wrapper .icon-button:nth-child(3):hover .icon {
     background: rgba(12, 12, 12, 0.404);
   }
-
   .foot-wrapper .icon-button:nth-child(4):hover .icon {
     background: rgba(12, 12, 12, 0.404);
   }
-
   .foot-wrapper .icon-button:hover .icon i {
     color: #fff;
   }
@@ -219,7 +212,6 @@ footer {
     display: none;
     transition: none;
   }
-
   .tableau-icon {
     height: 9vw;
     width: 9vw;
@@ -297,7 +289,6 @@ footer {
   .desktop-navigation {
     display: none;
   }
-
   .icon-burger {
     display: flex;
     z-index: 2;
@@ -312,7 +303,6 @@ footer {
   .icon-burger .line {
     background-color: #CF5609;
   }
-
   .mobile-links {
     display: flex;
     font-family: Norwester;
@@ -412,7 +402,6 @@ footer {
   .desktop-navigation-home {
     display: none;
   }
-
   .icon-burger-home {
     display: block;
     z-index: 2;
@@ -423,7 +412,6 @@ footer {
   .icon-burger-home .line {
     background-color: #CF5609;
   }
-
   .mobile-links-home {
     display: flex;
     font-family: Norwester;
@@ -524,17 +512,14 @@ footer {
     width: 85%;
     height: 85%;
   }
-
   .dev-info h1 {
     margin-top: 10px;
     font-size: 6.5vw;
   }
-
   .dev-info p {
     margin-top: 10px;
     font-size: 3.5vw;
   }
-
   .dev-info i {
     font-size: 6vw;
     margin-top: 10px;
@@ -691,7 +676,6 @@ label {
   .contact-form-container {
     min-height: 52vh;
   }
-
   .contact-form {
     height: 106vw;
     max-width: 90vw;
@@ -700,13 +684,11 @@ label {
     padding: 5vw 0 5vw 0;
     width: 100%;
   }
-
   label {
     color: white;
     font-size: 8vw;
     margin: 0.6vw 0vw 0.2vw 5vw;
   }
-
   .contact-form-name,
 .contact-form-email,
 .contact-form-subject,
@@ -721,11 +703,9 @@ label {
     min-width: 85%;
     max-width: 94%;
   }
-
   .contact-form-message {
     min-height: 30vw;
   }
-
   #contact-form-send {
     display: flex;
     flex-direction: column;
@@ -733,7 +713,6 @@ label {
     align-items: center;
     margin: 5vw auto 2vw auto;
   }
-
   .contact-form-submit {
     font-family: Norwester;
     border-radius: 1rem;
@@ -885,22 +864,18 @@ label {
   .home-top-banner {
     background-position: bottom;
   }
-
   .cont-profile-pic {
     margin-top: 0;
     padding-top: 20vw;
   }
-
   .profile-pic {
     width: 60vw;
   }
-
   .about-text-home {
     padding: 0 2vw 5vw 2vw;
     font-size: 5vw;
     margin: 3vw 1vw 0vw 1vw;
   }
-
   .home-portfolio-btn {
     border: 3px solid #CF5609;
     border-radius: 0.5rem;
@@ -909,7 +884,6 @@ label {
   .home-portfolio-btn a {
     font-size: 9vw;
   }
-
   .data-text-header-home,
 .developer-text-header-home,
 .designer-text-header-home {
@@ -919,7 +893,6 @@ label {
     text-align: center;
     margin: 5vw 0 0vw 0;
   }
-
   .code-logos {
     font-size: 6.5vw;
   }
@@ -931,26 +904,21 @@ label {
     margin-top: -3.5vw;
     font-size: 6vw;
   }
-
   .icon-header {
     padding: 0 1vw 0 1vw;
     font-size: 6.5vw;
   }
-
   .code-logos-container,
 .design-logos-container {
     grid-template-columns: 1fr 1fr;
   }
-
   .gsap {
     display: none;
   }
-
   .email-home {
     margin: 1vw 0 0 0;
     font-size: 6vw;
   }
-
   .email {
     font-size: 6vw;
   }
@@ -1020,14 +988,12 @@ label {
 .designer-text-container {
     color: white;
   }
-
   .data-text-header,
 .developer-text-header,
 .designer-text-header {
     font-size: 15vw;
     margin: 15vw 0 2vw 0;
   }
-
   .portfolio-container {
     display: flex;
     flex-direction: column;
@@ -1037,7 +1003,6 @@ label {
     margin-right: auto;
     margin-bottom: 2px;
   }
-
   .data-portfolio-container-row-1 {
     flex-direction: column;
     align-content: center;
@@ -1046,7 +1011,6 @@ label {
     margin-right: auto;
     margin-bottom: 1px;
   }
-
   .portfolio-container-row-1,
 .portfolio-container-row-2,
 .portfolio-container-row-3 {
@@ -1131,11 +1095,9 @@ label {
     font-size: 6.5vw;
     padding: 0 2vw 0 2vw;
   }
-
   .resume {
     font-size: 9.5vw;
   }
-
   .secret-message {
     font-size: 5.5vw;
     margin: 1vw 0 0.5vw 0;
@@ -1165,7 +1127,6 @@ label {
     font-size: 15vw;
     margin: 18vw 0px 4vw 0;
   }
-
   .contact-text-paragraph {
     font-size: 10vw;
   }
@@ -1211,6 +1172,20 @@ label {
   align-content: center;
   text-align: justify;
   margin: 2.5vw 3vw 0 3vw;
+  padding: 0 1vw 0 1vw;
+  font-size: 3vw;
+}
+
+.project-description-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  justify-items: center;
+  align-items: flex-start;
+  align-content: center;
+  text-align: justify;
+  margin: 2.5vw 3vw 0 6vw;
   padding: 0 1vw 0 1vw;
   font-size: 3vw;
 }
@@ -1268,28 +1243,28 @@ label {
   .project-title {
     font-size: 4.5vw;
   }
-
   .project-pic-container {
     margin-top: 5vw;
   }
-
   .data1-pic {
     width: 95vw;
     box-shadow: 5px 5px 10px rgb(37, 37, 37);
   }
-
   .project-disclaimer {
     margin: 2vw 0 0 0;
     padding: 0 1vw 0 1vw;
     font-size: 3.5vw;
   }
-
   .project-description {
     margin: 2.5vw 2vw 0 2vw;
     padding: 0 2vw 0 2vw;
     font-size: 4vw;
   }
-
+  .project-description-list {
+    margin: 2.5vw 2vw 0 6vw;
+    padding: 0 2vw 0 2vw;
+    font-size: 4vw;
+  }
   .github-large-icon {
     margin: 5vw 1vw 3vw 1vw;
   }
@@ -1300,7 +1275,6 @@ label {
     margin: 5px;
     font-size: 5vw;
   }
-
   .back-portfolio-btn {
     margin: 6vw 0 0 0;
     border: 3px solid #CF5609;

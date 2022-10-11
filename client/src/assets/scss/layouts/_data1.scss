@@ -43,6 +43,20 @@
   font-size: 3vw;
 }
 
+.project-description-list {
+   display: flex;
+   flex-direction: column;
+   flex-wrap: nowrap;
+   justify-content: center;
+   justify-items: center;
+   align-items: flex-start;
+   align-content: center;
+   text-align: justify;
+   margin: 2.5vw 3vw 0 6vw;
+   padding: 0 1vw 0 1vw;
+   font-size: 3vw;
+ }
+
 .github-icon-container{
    display: flex;
    flex-direction: column;
@@ -132,6 +146,12 @@
    
    .project-description {
      margin: 2.5vw 2vw 0 2vw;
+     padding: 0 2vw 0 2vw;
+     font-size: 4vw;
+   }
+
+   .project-description-list {
+     margin: 2.5vw 2vw 0 6vw;
      padding: 0 2vw 0 2vw;
      font-size: 4vw;
    }
