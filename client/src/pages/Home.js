@@ -12,6 +12,7 @@ import excel from '../assets/img/icons/data-icon/data-excel.png';
 import mysql from '../assets/img/icons/data-icon/data-mysql.png';
 import tableau from '../assets/img/icons/data-icon/data-tableau.png';
 import python from '../assets/img/icons/data-icon/data-python.png';
+import powerpoint from '../assets/img/icons/data-icon/data-powerpoint.png';
 
 import html from '../assets/img/icons/code-icon/code-html.png';
 import css from '../assets/img/icons/code-icon/code-css.png';
@@ -170,18 +171,18 @@ function Home() {
 
       <div className="icon-header">
          <h3>
-               The development technology and designing software I use at a quick glance
+               The development technology and software I use at a quick glance
          </h3>
       </div>
 
 
       <div className="data-text-container">
-         <h2 className="data-text-header-home">data analyst</h2>
+         <h2 className="data-text-header-home">business analyst</h2>
       </div>
 
    <div className="dividers-line"></div>
 
-      <div className="design-logos-container" ref={icons1}>
+      <div className="data-logos-container" ref={icons1}>
          <div className="code-logos">
                <img src={excel} alt="excel"/>
                <h3>excel</h3>
@@ -202,10 +203,15 @@ function Home() {
                <h3>python</h3>
          </div>
 
+         <div className="code-logos">
+               <img src={powerpoint} alt="powerpoint"/>
+               <h3>PowerPoint</h3>
+         </div>
+
       </div>
 
       <div className="developer-text-container">
-         <h2 className="developer-text-header-home">developer</h2>
+         <h2 className="developer-text-header-home">web developer</h2>
       </div>
    <div className="dividers-line"></div>
 

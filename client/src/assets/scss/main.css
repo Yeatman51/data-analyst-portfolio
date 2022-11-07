@@ -809,6 +809,16 @@ label {
   margin: 5vw 0 0vw 0;
 }
 
+.data-logos-container {
+  font-family: Norwester;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2vw;
+}
+
 .code-logos-container,
 .design-logos-container {
   font-family: Norwester;

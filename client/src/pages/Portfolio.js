@@ -160,7 +160,7 @@ function Portfolio() {
    <Navbar/>
 
    <div className="data-text-container">
-      <h2 className="data-text-header">data analyst</h2>
+      <h2 className="data-text-header">business analyst</h2>
 
       <p className="data-text-paragraph">
 
