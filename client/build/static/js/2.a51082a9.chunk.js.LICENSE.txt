@@ -5,7 +5,7 @@ object-assign
 */
 
 /*!
- * CSSPlugin 3.10.3
+ * CSSPlugin 3.11.3
  * https://greensock.com
  *
  * Copyright 2008-2022, GreenSock. All rights reserved.
@@ -15,7 +15,7 @@ object-assign
 */
 
 /*!
- * GSAP 3.10.3
+ * GSAP 3.11.3
  * https://greensock.com
  *
  * @license Copyright 2008-2022, GreenSock. All rights reserved.
@@ -25,7 +25,7 @@ object-assign
 */
 
 /*!
- * Observer 3.10.3
+ * Observer 3.11.3
  * https://greensock.com
  *
  * @license Copyright 2008-2022, GreenSock. All rights reserved.
@@ -35,7 +35,7 @@ object-assign
 */
 
 /*!
- * ScrollTrigger 3.10.3
+ * ScrollTrigger 3.11.3
  * https://greensock.com
  *
  * @license Copyright 2008-2022, GreenSock. All rights reserved.
@@ -43,6 +43,36 @@ object-assign
  * Club GreenSock members, the agreement issued with that membership.
  * @author: Jack Doyle, jack@greensock.com
 */
+
+/**
+ * @license React
+ * react-dom.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/**
+ * @license React
+ * react.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/**
+ * @license React
+ * scheduler.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
 
 /** @license React v0.20.2
  * scheduler.production.min.js
