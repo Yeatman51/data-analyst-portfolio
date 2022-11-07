@@ -4,7 +4,8 @@
   "description": "jon portfolio",
   "main": "server.js",
   "engines": {
-   "node": "18.x"
+   "node": "18.x",
+   "npm": "8.x"
  },
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
