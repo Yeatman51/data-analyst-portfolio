@@ -59,38 +59,42 @@ function Data3() {
       <div className="project-pic-container">
          <img className="data1-pic"
          src={DDL1} 
-         alt="filtering parameters"/>
+         alt="Forms"/>
       </div>
 
-      {/* <p className="project-description">
-      After logging in the program will automatically fill all filtering parameters to select the exact data set required.
-      </p> */}
+      <p className="project-description">
+      Staff members and site leads are able to access all forms
+      </p>
 
       <div className="project-pic-container">
          <img className="data1-pic"
          src={DDL3} 
-         alt="export process"/>
+         alt="End of Shift Form"/>
       </div>
 
-      {/* <p className="project-description">
-         After the correct parameters have been selected the program will wait and allow the graph data to fill before beginning the export process
-      </p> */}
+      <p className="project-description">
+      End of shift form submission process
+      </p>
 
       <div className="project-pic-container">
          <img className="data1-pic"
          src={DDL2} 
-         alt="run report"/>
+         alt="Staff on Site Dashboard"/>
       </div>
 
-      {/* <p className="project-description">
-         In this final step the program will now automatically run the report triggering a download of the data. 
-      </p> */}
+      <p className="project-description">
+      Only management team members are able to access the form results. Every data table displaying results can be filtered and exported to an Excel or CSV file. 
+      </p>
 
       <div className="project-pic-container">
          <img className="data1-pic"
          src={DDL4} 
-         alt="run report"/>
+         alt="Supply Requests Dashboard"/>
       </div>
+
+      <p className="project-description">
+      This business Intelligence Application utilizes the WordPress Engine. 
+      </p>
 
     
 

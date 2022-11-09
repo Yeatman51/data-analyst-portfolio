@@ -40,7 +40,7 @@ function Portfolio() {
          webPage: "./WallPro",
          title:"wall pro",
          imgSrc:"/images/dev-card-img/wall-pro-cover.png",
-         alt:"Automation Dashboard",
+         alt:"WallPro Application",
          description:"A production and client management application. Wallpro allows on site contractors to input sectional data that is then converted to panel measurements for production orders"
        },
        {
@@ -48,8 +48,8 @@ function Portfolio() {
           webPage: "./HonuForms",
           title:"honu data forms",
           imgSrc:"/images/dev-card-img/honu-forms-cover.png",
-          alt:"Site Issues Dashboard",
-          description:"A Business intelligence application built to on site staff to enter essential data and submit daily operating forms."
+          alt:"Honu Business Intelligence Application ",
+          description:"A Business intelligence application built for on site staff to enter essential data and submit daily operating forms."
       }
   ]
   
